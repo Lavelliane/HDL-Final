@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Mode[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Mode[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Coin[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Coin[1]",
+					"strict" : false
+				},
+				{
+					"name" : "isRunning",
+					"strict" : false
+				},
+				{
+					"name" : "Enable",
+					"strict" : false
+				},
+				{
+					"name" : "Coin[2]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
