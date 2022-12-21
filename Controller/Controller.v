@@ -26,9 +26,11 @@ module Controller(Mode, PresentTime, CounterInput, CounterEnable, isRunning);
 											isRunning = 1'b1;
 											CounterInput = 4'd5;
 										 end
-						
-						
-						
+							default : begin
+											CounterEnable = 1'bx;
+											isRunning = 1'bx;
+											CounterInput = 4'dx;
+										 end
 					endcase
 				end
 			

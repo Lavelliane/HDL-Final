@@ -1,0 +1,40 @@
+|ComplexCounter_4Bit
+Clk => cState~1.DATAIN
+nReset => cState.OUTPUTSELECT
+nReset => cState.OUTPUTSELECT
+nReset => cState.OUTPUTSELECT
+nReset => cState.OUTPUTSELECT
+nReset => cState.OUTPUTSELECT
+nReset => cState.OUTPUTSELECT
+nReset => cState.OUTPUTSELECT
+nReset => cState.OUTPUTSELECT
+nReset => cState.OUTPUTSELECT
+nReset => cState.OUTPUTSELECT
+Enable => nState.0000.OUTPUTSELECT
+Enable => nState.0001.OUTPUTSELECT
+Enable => nState.0010.OUTPUTSELECT
+Enable => nState.0011.OUTPUTSELECT
+Enable => nState.0100.OUTPUTSELECT
+Enable => nState.0101.OUTPUTSELECT
+Enable => nState.0110.OUTPUTSELECT
+Enable => nState.0111.OUTPUTSELECT
+Enable => nState.1000.OUTPUTSELECT
+Enable => nState.1001.OUTPUTSELECT
+Mode[0] => Equal0.IN1
+Mode[0] => Equal1.IN1
+Mode[0] => Equal2.IN0
+Mode[1] => Equal0.IN3
+Mode[1] => Equal1.IN3
+Mode[1] => Equal2.IN3
+Mode[2] => Equal0.IN2
+Mode[2] => Equal1.IN0
+Mode[2] => Equal2.IN2
+Mode[3] => Equal0.IN0
+Mode[3] => Equal1.IN2
+Mode[3] => Equal2.IN1
+Count[0] << WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Count[1] << WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Count[2] << WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+Count[3] << Count.DB_MAX_OUTPUT_PORT_TYPE
+
+

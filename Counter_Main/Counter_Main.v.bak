@@ -1,0 +1,6 @@
+//CounterInput: 4-bit input to determine what mode to run
+//CounterEnable: 1-bit input to determine if counter is on (Only on if coin is inserted)
+//isRunning : 1-bit input that returns true if PresentTime is above 0:00
+
+
+module Counter_Main();

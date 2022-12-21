@@ -1,0 +1,95 @@
+# Reading pref.tcl
+# do ComplexCounter_4Bit_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Jhury/Desktop/SCHOOL\ STUFF/CpE\ -\ 3rd\ Year/HDL/FINAL\ PROJ/HDL-Final/Counter_4Bit {C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_4Bit/ComplexCounter_4Bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:37:49 on Dec 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_4Bit" C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_4Bit/ComplexCounter_4Bit.v 
+# -- Compiling module ComplexCounter_4Bit
+# 
+# Top level modules:
+# 	ComplexCounter_4Bit
+# End time: 18:37:50 on Dec 21,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Jhury/Desktop/SCHOOL\ STUFF/CpE\ -\ 3rd\ Year/HDL/FINAL\ PROJ/HDL-Final/Counter_4Bit {C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_4Bit/tb_ComplexCounter_4Bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:37:50 on Dec 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_4Bit" C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_4Bit/tb_ComplexCounter_4Bit.v 
+# -- Compiling module tb_ComplexCounter_4Bit
+# 
+# Top level modules:
+# 	tb_ComplexCounter_4Bit
+# End time: 18:37:50 on Dec 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  tb_ComplexCounter_4Bit
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" tb_ComplexCounter_4Bit 
+# Start time: 18:37:50 on Dec 21,2022
+# Loading work.tb_ComplexCounter_4Bit
+# Loading work.ComplexCounter_4Bit
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Starting simulation at                    0 ns...
+# Time:   0 ns	 Clk = 0	 nReset = 0	 Mode = x	 Count = 1001 == 9
+# Time:   5 ns	 Clk = 1	 nReset = 0	 Mode = x	 Count = 1001 == 9
+# Time:  10 ns	 Clk = 0	 nReset = 1	 Mode = x	 Count = 0000 == 0
+# Time:  15 ns	 Clk = 1	 nReset = 1	 Mode = x	 Count = 0000 == 0
+# Time:  20 ns	 Clk = 0	 nReset = 1	 Mode = x	 Count = 0000 == 0
+# Time:  25 ns	 Clk = 1	 nReset = 1	 Mode = x	 Count = 0000 == 0
+# Time:  30 ns	 Clk = 0	 nReset = 1	 Mode = x	 Count = 0000 == 0
+# Time:  35 ns	 Clk = 1	 nReset = 1	 Mode = x	 Count = 0000 == 0
+# Time:  40 ns	 Clk = 0	 nReset = 1	 Mode = x	 Count = 0000 == 0
+# Time:  45 ns	 Clk = 1	 nReset = 1	 Mode = x	 Count = 0000 == 0
+# Time:  50 ns	 Clk = 0	 nReset = 1	 Mode = x	 Count = 0000 == 0
+# Time:  55 ns	 Clk = 1	 nReset = 1	 Mode = x	 Count = 0000 == 0
+# Time:  60 ns	 Clk = 0	 nReset = 1	 Mode = x	 Count = 0000 == 0
+# Time:  65 ns	 Clk = 1	 nReset = 1	 Mode = x	 Count = 0000 == 0
+# Time:  70 ns	 Clk = 0	 nReset = 1	 Mode = x	 Count = 0000 == 0
+# Time:  75 ns	 Clk = 1	 nReset = 1	 Mode = x	 Count = 0000 == 0
+# Time:  80 ns	 Clk = 0	 nReset = 1	 Mode = x	 Count = 0000 == 0
+# Time:  85 ns	 Clk = 1	 nReset = 1	 Mode = x	 Count = 0000 == 0
+# Time:  90 ns	 Clk = 0	 nReset = 1	 Mode = x	 Count = 0000 == 0
+# Time:  95 ns	 Clk = 1	 nReset = 1	 Mode = x	 Count = 0000 == 0
+# Time: 100 ns	 Clk = 0	 nReset = 1	 Mode = 9	 Count = 0000 == 0
+# Time: 105 ns	 Clk = 1	 nReset = 1	 Mode = 9	 Count = 0000 == 0
+# Time: 110 ns	 Clk = 0	 nReset = 1	 Mode = 9	 Count = 1001 == 9
+# Time: 115 ns	 Clk = 1	 nReset = 1	 Mode = 9	 Count = 1001 == 9
+# Time: 120 ns	 Clk = 0	 nReset = 1	 Mode = 9	 Count = 1000 == 8
+# Time: 125 ns	 Clk = 1	 nReset = 1	 Mode = 9	 Count = 1000 == 8
+# Time: 130 ns	 Clk = 0	 nReset = 1	 Mode = 9	 Count = 0111 == 7
+# Time: 135 ns	 Clk = 1	 nReset = 1	 Mode = 9	 Count = 0111 == 7
+# Time: 140 ns	 Clk = 0	 nReset = 1	 Mode = 9	 Count = 0110 == 6
+# Time: 145 ns	 Clk = 1	 nReset = 1	 Mode = 9	 Count = 0110 == 6
+# Time: 150 ns	 Clk = 0	 nReset = 1	 Mode = 9	 Count = 0101 == 5
+# Time: 155 ns	 Clk = 1	 nReset = 1	 Mode = 9	 Count = 0101 == 5
+# Time: 160 ns	 Clk = 0	 nReset = 1	 Mode = 9	 Count = 0100 == 4
+# Time: 165 ns	 Clk = 1	 nReset = 1	 Mode = 9	 Count = 0100 == 4
+# Time: 170 ns	 Clk = 0	 nReset = 1	 Mode = 9	 Count = 0011 == 3
+# Time: 175 ns	 Clk = 1	 nReset = 1	 Mode = 9	 Count = 0011 == 3
+# Time: 180 ns	 Clk = 0	 nReset = 1	 Mode = 9	 Count = 0010 == 2
+# Time: 185 ns	 Clk = 1	 nReset = 1	 Mode = 9	 Count = 0010 == 2
+# Time: 190 ns	 Clk = 0	 nReset = 0	 Mode = 9	 Count = 1001 == 9
+# Time: 195 ns	 Clk = 1	 nReset = 0	 Mode = 9	 Count = 1001 == 9
+# Time: 200 ns	 Clk = 0	 nReset = 0	 Mode = 9	 Count = 1001 == 9
+# Time: 205 ns	 Clk = 1	 nReset = 0	 Mode = 9	 Count = 1001 == 9
+# Finished simulation at                  210 ns.
+# ** Note: $stop    : C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_4Bit/tb_ComplexCounter_4Bit.v(32)
+#    Time: 210 ns  Iteration: 0  Instance: /tb_ComplexCounter_4Bit
+# Break in Module tb_ComplexCounter_4Bit at C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_4Bit/tb_ComplexCounter_4Bit.v line 32
+# End time: 18:38:38 on Dec 21,2022, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 0
