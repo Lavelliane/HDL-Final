@@ -1,0 +1,89 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "CounterInput[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterInput[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterEnable",
+					"strict" : false
+				},
+				{
+					"name" : "isRunning",
+					"strict" : false
+				},
+				{
+					"name" : "PresentTime[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PresentTime[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PresentTime[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PresentTime[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PresentTime[4]",
+					"strict" : false
+				},
+				{
+					"name" : "PresentTime[5]",
+					"strict" : false
+				},
+				{
+					"name" : "PresentTime[6]",
+					"strict" : false
+				},
+				{
+					"name" : "PresentTime[7]",
+					"strict" : false
+				},
+				{
+					"name" : "PresentTime[8]",
+					"strict" : false
+				},
+				{
+					"name" : "PresentTime[9]",
+					"strict" : false
+				},
+				{
+					"name" : "PresentTime[10]",
+					"strict" : false
+				},
+				{
+					"name" : "PresentTime[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Mode[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Mode[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Mode[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Mode[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
