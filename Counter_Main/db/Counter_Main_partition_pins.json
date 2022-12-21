@@ -1,0 +1,85 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "S1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "S1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "S1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "S1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "S2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "S2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "S2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "S2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "S3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "S3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "S3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "S3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "nReset",
+					"strict" : false
+				},
+				{
+					"name" : "CounterEnable",
+					"strict" : false
+				},
+				{
+					"name" : "Clk",
+					"strict" : false
+				},
+				{
+					"name" : "CounterInput[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterInput[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterInput[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterInput[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
