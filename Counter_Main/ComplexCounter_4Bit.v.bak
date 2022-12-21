@@ -63,7 +63,7 @@ module ComplexCounter_4Bit(
 					nState <= 4'b0000;
 			end
 		else 
-			nState <= cState;
+			nState <= 4'b0000;
 	end
 	
 	always @ (*)

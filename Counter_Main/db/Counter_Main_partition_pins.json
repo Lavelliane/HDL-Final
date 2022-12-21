@@ -56,11 +56,15 @@
 					"strict" : false
 				},
 				{
+					"name" : "Clk",
+					"strict" : false
+				},
+				{
 					"name" : "CounterEnable",
 					"strict" : false
 				},
 				{
-					"name" : "Clk",
+					"name" : "CounterInput[0]",
 					"strict" : false
 				},
 				{
@@ -73,10 +77,6 @@
 				},
 				{
 					"name" : "CounterInput[3]",
-					"strict" : false
-				},
-				{
-					"name" : "CounterInput[0]",
 					"strict" : false
 				}
 			]

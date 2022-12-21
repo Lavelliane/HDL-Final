@@ -1,0 +1,89 @@
+# Reading pref.tcl
+# do Counter_Main_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying D:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main {C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main/Counter_Main.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:26:05 on Dec 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main" C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main/Counter_Main.v 
+# -- Compiling module Counter_Main
+# 
+# Top level modules:
+# 	Counter_Main
+# End time: 22:26:05 on Dec 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main {C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main/ComplexCounter_4Bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:26:05 on Dec 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main" C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main/ComplexCounter_4Bit.v 
+# -- Compiling module ComplexCounter_4Bit
+# 
+# Top level modules:
+# 	ComplexCounter_4Bit
+# End time: 22:26:05 on Dec 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main {C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main/tb_Counter_Main.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:26:05 on Dec 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main" C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main/tb_Counter_Main.v 
+# -- Compiling module tb_Counter_Main
+# 
+# Top level modules:
+# 	tb_Counter_Main
+# End time: 22:26:05 on Dec 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  tb_Counter_Main
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" tb_Counter_Main 
+# Start time: 22:26:06 on Dec 21,2022
+# Loading work.tb_Counter_Main
+# Loading work.Counter_Main
+# Loading work.ComplexCounter_4Bit
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 10, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_Counter_Main/UUT File: C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main/tb_Counter_Main.v Line: 16
+# ** Warning: (vsim-3722) C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main/tb_Counter_Main.v(16): [TFMPC] - Missing connection for port 'S4'.
+# ** Warning: (vsim-3722) C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main/tb_Counter_Main.v(16): [TFMPC] - Missing connection for port 'S5'.
+# ** Warning: (vsim-3722) C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main/tb_Counter_Main.v(16): [TFMPC] - Missing connection for port 'S6'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Starting simulation at                    0 ns...
+# Time:   0 ns	 Clk = 0	 nReset = 0	 CounterEnable = x	 CounterInput = x	 Time = 9:99
+# Time:   5 ns	 Clk = 1	 nReset = 0	 CounterEnable = x	 CounterInput = x	 Time = 9:99
+# Time:  10 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:xx
+# Time:  15 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:xx
+# Time:  20 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x9
+# Time:  25 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x9
+# Time:  30 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x8
+# Time:  35 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x8
+# Time:  40 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x7
+# Time:  45 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x7
+# Time:  50 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x6
+# Time:  55 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x6
+# Time:  60 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x5
+# Time:  65 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x5
+# Time:  70 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x4
+# Time:  75 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x4
+# Time:  80 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x3
+# Time:  85 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x3
+# Time:  90 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x2
+# Time:  95 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x2
+# Time: 100 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x1
+# Time: 105 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x1
+# Finished simulation at                  110 ns.
+# ** Note: $stop    : C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main/tb_Counter_Main.v(31)
+#    Time: 110 ns  Iteration: 0  Instance: /tb_Counter_Main
+# Break in Module tb_Counter_Main at C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main/tb_Counter_Main.v line 31
