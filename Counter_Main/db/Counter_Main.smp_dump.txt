@@ -1,7 +1,7 @@
 
 State Machine - |Counter_Main|ComplexCounter_4Bit:C3|cState
-Name cState.0000 cState.1000 cState.0111 cState.0110 cState.0101 cState.0100 cState.0011 cState.0010 cState.0001 cState.1001 
-cState.1001 0 0 0 0 0 0 0 0 0 0 
+Name cState.1001 cState.1000 cState.0111 cState.0110 cState.0101 cState.0100 cState.0011 cState.0010 cState.0001 cState.0000 
+cState.0000 0 0 0 0 0 0 0 0 0 0 
 cState.0001 0 0 0 0 0 0 0 0 1 1 
 cState.0010 0 0 0 0 0 0 0 1 0 1 
 cState.0011 0 0 0 0 0 0 1 0 0 1 
@@ -10,11 +10,11 @@ cState.0101 0 0 0 0 1 0 0 0 0 1
 cState.0110 0 0 0 1 0 0 0 0 0 1 
 cState.0111 0 0 1 0 0 0 0 0 0 1 
 cState.1000 0 1 0 0 0 0 0 0 0 1 
-cState.0000 1 0 0 0 0 0 0 0 0 1 
+cState.1001 1 0 0 0 0 0 0 0 0 1 
 
 State Machine - |Counter_Main|ComplexCounter_4Bit:C2|cState
-Name cState.0000 cState.1000 cState.0111 cState.0110 cState.0101 cState.0100 cState.0011 cState.0010 cState.0001 cState.1001 
-cState.1001 0 0 0 0 0 0 0 0 0 0 
+Name cState.1001 cState.1000 cState.0111 cState.0110 cState.0101 cState.0100 cState.0011 cState.0010 cState.0001 cState.0000 
+cState.0000 0 0 0 0 0 0 0 0 0 0 
 cState.0001 0 0 0 0 0 0 0 0 1 1 
 cState.0010 0 0 0 0 0 0 0 1 0 1 
 cState.0011 0 0 0 0 0 0 1 0 0 1 
@@ -23,11 +23,11 @@ cState.0101 0 0 0 0 1 0 0 0 0 1
 cState.0110 0 0 0 1 0 0 0 0 0 1 
 cState.0111 0 0 1 0 0 0 0 0 0 1 
 cState.1000 0 1 0 0 0 0 0 0 0 1 
-cState.0000 1 0 0 0 0 0 0 0 0 1 
+cState.1001 1 0 0 0 0 0 0 0 0 1 
 
 State Machine - |Counter_Main|ComplexCounter_4Bit:C1|cState
-Name cState.0000 cState.1000 cState.0111 cState.0110 cState.0101 cState.0100 cState.0011 cState.0010 cState.0001 cState.1001 
-cState.1001 0 0 0 0 0 0 0 0 0 0 
+Name cState.1001 cState.1000 cState.0111 cState.0110 cState.0101 cState.0100 cState.0011 cState.0010 cState.0001 cState.0000 
+cState.0000 0 0 0 0 0 0 0 0 0 0 
 cState.0001 0 0 0 0 0 0 0 0 1 1 
 cState.0010 0 0 0 0 0 0 0 1 0 1 
 cState.0011 0 0 0 0 0 0 1 0 0 1 
@@ -36,4 +36,4 @@ cState.0101 0 0 0 0 1 0 0 0 0 1
 cState.0110 0 0 0 1 0 0 0 0 0 1 
 cState.0111 0 0 1 0 0 0 0 0 0 1 
 cState.1000 0 1 0 0 0 0 0 0 0 1 
-cState.0000 1 0 0 0 0 0 0 0 0 1 
+cState.1001 1 0 0 0 0 0 0 0 0 1 

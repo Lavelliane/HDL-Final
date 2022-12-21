@@ -32,10 +32,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "S2[3]",
-					"strict" : false
-				},
-				{
 					"name" : "S3[0]",
 					"strict" : false
 				},
@@ -52,11 +48,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "nReset",
+					"name" : "Clk",
 					"strict" : false
 				},
 				{
-					"name" : "Clk",
+					"name" : "nReset",
 					"strict" : false
 				},
 				{

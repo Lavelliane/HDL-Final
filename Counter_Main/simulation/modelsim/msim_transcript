@@ -7,83 +7,465 @@
 # vmap work rtl_work
 # Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
 # vmap work rtl_work 
-# Copying D:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main {C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main/Counter_Main.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Jhury/Desktop/SCHOOL\ STUFF/CpE\ -\ 3rd\ Year/HDL/FINAL\ PROJ/HDL-Final/Counter_Main {C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/Counter_Main.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:26:05 on Dec 21,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main" C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main/Counter_Main.v 
+# Start time: 00:30:34 on Dec 22,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main" C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/Counter_Main.v 
 # -- Compiling module Counter_Main
 # 
 # Top level modules:
 # 	Counter_Main
-# End time: 22:26:05 on Dec 21,2022, Elapsed time: 0:00:00
+# End time: 00:30:34 on Dec 22,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main {C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main/ComplexCounter_4Bit.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Jhury/Desktop/SCHOOL\ STUFF/CpE\ -\ 3rd\ Year/HDL/FINAL\ PROJ/HDL-Final/Counter_Main {C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/ComplexCounter_4Bit.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:26:05 on Dec 21,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main" C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main/ComplexCounter_4Bit.v 
+# Start time: 00:30:34 on Dec 22,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main" C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/ComplexCounter_4Bit.v 
 # -- Compiling module ComplexCounter_4Bit
 # 
 # Top level modules:
 # 	ComplexCounter_4Bit
-# End time: 22:26:05 on Dec 21,2022, Elapsed time: 0:00:00
+# End time: 00:30:34 on Dec 22,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main {C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main/tb_Counter_Main.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Jhury/Desktop/SCHOOL\ STUFF/CpE\ -\ 3rd\ Year/HDL/FINAL\ PROJ/HDL-Final/Counter_Main {C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/tb_Counter_Main.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:26:05 on Dec 21,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main" C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main/tb_Counter_Main.v 
+# Start time: 00:30:34 on Dec 22,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main" C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/tb_Counter_Main.v 
 # -- Compiling module tb_Counter_Main
 # 
 # Top level modules:
 # 	tb_Counter_Main
-# End time: 22:26:05 on Dec 21,2022, Elapsed time: 0:00:00
+# End time: 00:30:34 on Dec 22,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  tb_Counter_Main
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" tb_Counter_Main 
-# Start time: 22:26:06 on Dec 21,2022
+# Start time: 00:30:34 on Dec 22,2022
 # Loading work.tb_Counter_Main
 # Loading work.Counter_Main
 # Loading work.ComplexCounter_4Bit
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 10, found 7.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_Counter_Main/UUT File: C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main/tb_Counter_Main.v Line: 16
-# ** Warning: (vsim-3722) C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main/tb_Counter_Main.v(16): [TFMPC] - Missing connection for port 'S4'.
-# ** Warning: (vsim-3722) C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main/tb_Counter_Main.v(16): [TFMPC] - Missing connection for port 'S5'.
-# ** Warning: (vsim-3722) C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main/tb_Counter_Main.v(16): [TFMPC] - Missing connection for port 'S6'.
 # 
 # add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Thomas  Hostname: THOMAS-PC  ProcessID: 3468
+#           Attempting to use alternate WLF file "./wlftnvxkhb".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftnvxkhb
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
 # Starting simulation at                    0 ns...
-# Time:   0 ns	 Clk = 0	 nReset = 0	 CounterEnable = x	 CounterInput = x	 Time = 9:99
-# Time:   5 ns	 Clk = 1	 nReset = 0	 CounterEnable = x	 CounterInput = x	 Time = 9:99
-# Time:  10 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:xx
-# Time:  15 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:xx
-# Time:  20 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x9
-# Time:  25 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x9
-# Time:  30 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x8
-# Time:  35 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x8
-# Time:  40 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x7
-# Time:  45 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x7
-# Time:  50 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x6
-# Time:  55 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x6
-# Time:  60 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x5
-# Time:  65 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x5
-# Time:  70 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x4
-# Time:  75 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x4
-# Time:  80 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x3
-# Time:  85 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x3
-# Time:  90 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x2
-# Time:  95 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x2
-# Time: 100 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x1
-# Time: 105 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = x:x1
-# Finished simulation at                  110 ns.
-# ** Note: $stop    : C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main/tb_Counter_Main.v(31)
-#    Time: 110 ns  Iteration: 0  Instance: /tb_Counter_Main
-# Break in Module tb_Counter_Main at C:/Users/Thomas/Desktop/HDL-Final/HDL-Final/Counter_Main/tb_Counter_Main.v line 31
+# Time:   0 ns	 Clk = 0	 nReset = 0	 CounterEnable = x	 CounterInput = x	 Time = 0:00
+# Time:   5 ns	 Clk = 1	 nReset = 0	 CounterEnable = x	 CounterInput = x	 Time = 0:00
+# Time:  10 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:50
+# Time:  15 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:50
+# Time:  20 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:49
+# Time:  25 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:49
+# Time:  30 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:48
+# Time:  35 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:48
+# Time:  40 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:47
+# Time:  45 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:47
+# Time:  50 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:46
+# Time:  55 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:46
+# Time:  60 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:45
+# Time:  65 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:45
+# Time:  70 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:44
+# Time:  75 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:44
+# Time:  80 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:43
+# Time:  85 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:43
+# Time:  90 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:42
+# Time:  95 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:42
+# Time: 100 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:41
+# Time: 105 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:41
+# Time: 110 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:40
+# Time: 115 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:40
+# Time: 120 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:39
+# Time: 125 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:39
+# Time: 130 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:38
+# Time: 135 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:38
+# Time: 140 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:37
+# Time: 145 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:37
+# Time: 150 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:36
+# Time: 155 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:36
+# Time: 160 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:35
+# Time: 165 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:35
+# Time: 170 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:34
+# Time: 175 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:34
+# Time: 180 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:33
+# Time: 185 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:33
+# Time: 190 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:32
+# Time: 195 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:32
+# Time: 200 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:31
+# Time: 205 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:31
+# Time: 210 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:30
+# Time: 215 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:30
+# Time: 220 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:29
+# Time: 225 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:29
+# Time: 230 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:28
+# Time: 235 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:28
+# Time: 240 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:27
+# Time: 245 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:27
+# Time: 250 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:26
+# Time: 255 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:26
+# Time: 260 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:25
+# Time: 265 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:25
+# Time: 270 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:24
+# Time: 275 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:24
+# Time: 280 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:23
+# Time: 285 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:23
+# Time: 290 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:22
+# Time: 295 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:22
+# Time: 300 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:21
+# Time: 305 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:21
+# Time: 310 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:20
+# Time: 315 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:20
+# Time: 320 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:19
+# Time: 325 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:19
+# Time: 330 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:18
+# Time: 335 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:18
+# Time: 340 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:17
+# Time: 345 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:17
+# Time: 350 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:16
+# Time: 355 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:16
+# Time: 360 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:15
+# Time: 365 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:15
+# Time: 370 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:14
+# Time: 375 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:14
+# Time: 380 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:13
+# Time: 385 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:13
+# Time: 390 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:12
+# Time: 395 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:12
+# Time: 400 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:11
+# Time: 405 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:11
+# Time: 410 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:10
+# Time: 415 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:10
+# Time: 420 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:09
+# Time: 425 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:09
+# Time: 430 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:08
+# Time: 435 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:08
+# Time: 440 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:07
+# Time: 445 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:07
+# Time: 450 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:06
+# Time: 455 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:06
+# Time: 460 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:05
+# Time: 465 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:05
+# Time: 470 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:04
+# Time: 475 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:04
+# Time: 480 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:03
+# Time: 485 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:03
+# Time: 490 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:02
+# Time: 495 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:02
+# Time: 500 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:01
+# Time: 505 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:01
+# Time: 510 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:00
+# Time: 515 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 9:00
+# Time: 520 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:59
+# Time: 525 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:59
+# Time: 530 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:58
+# Time: 535 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:58
+# Time: 540 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:57
+# Time: 545 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:57
+# Time: 550 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:56
+# Time: 555 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:56
+# Time: 560 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:55
+# Time: 565 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:55
+# Time: 570 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:54
+# Time: 575 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:54
+# Time: 580 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:53
+# Time: 585 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:53
+# Time: 590 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:52
+# Time: 595 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:52
+# Time: 600 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:51
+# Time: 605 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:51
+# Time: 610 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:50
+# Time: 615 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:50
+# Time: 620 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:49
+# Time: 625 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:49
+# Time: 630 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:48
+# Time: 635 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:48
+# Time: 640 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:47
+# Time: 645 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:47
+# Time: 650 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:46
+# Time: 655 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:46
+# Time: 660 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:45
+# Time: 665 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:45
+# Time: 670 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:44
+# Time: 675 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:44
+# Time: 680 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:43
+# Time: 685 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:43
+# Time: 690 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:42
+# Time: 695 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:42
+# Time: 700 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:41
+# Time: 705 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:41
+# Time: 710 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:40
+# Time: 715 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:40
+# Time: 720 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:39
+# Time: 725 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:39
+# Time: 730 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:38
+# Time: 735 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:38
+# Time: 740 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:37
+# Time: 745 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:37
+# Time: 750 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:36
+# Time: 755 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:36
+# Time: 760 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:35
+# Time: 765 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:35
+# Time: 770 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:34
+# Time: 775 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:34
+# Time: 780 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:33
+# Time: 785 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:33
+# Time: 790 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:32
+# Time: 795 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:32
+# Time: 800 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:31
+# Time: 805 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:31
+# Time: 810 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:30
+# Time: 815 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:30
+# Time: 820 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:29
+# Time: 825 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:29
+# Time: 830 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:28
+# Time: 835 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:28
+# Time: 840 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:27
+# Time: 845 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:27
+# Time: 850 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:26
+# Time: 855 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:26
+# Time: 860 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:25
+# Time: 865 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:25
+# Time: 870 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:24
+# Time: 875 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:24
+# Time: 880 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:23
+# Time: 885 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:23
+# Time: 890 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:22
+# Time: 895 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:22
+# Time: 900 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:21
+# Time: 905 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:21
+# Time: 910 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:20
+# Time: 915 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:20
+# Time: 920 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:19
+# Time: 925 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:19
+# Time: 930 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:18
+# Time: 935 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:18
+# Time: 940 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:17
+# Time: 945 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:17
+# Time: 950 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:16
+# Time: 955 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:16
+# Time: 960 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:15
+# Time: 965 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:15
+# Time: 970 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:14
+# Time: 975 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:14
+# Time: 980 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:13
+# Time: 985 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:13
+# Time: 990 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:12
+# Time: 995 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:12
+# Time: 1000 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:11
+# Time: 1005 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:11
+# Time: 1010 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:10
+# Time: 1015 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:10
+# Time: 1020 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:09
+# Time: 1025 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:09
+# Time: 1030 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:08
+# Time: 1035 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:08
+# Time: 1040 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:07
+# Time: 1045 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:07
+# Time: 1050 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:06
+# Time: 1055 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:06
+# Time: 1060 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:05
+# Time: 1065 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:05
+# Time: 1070 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:04
+# Time: 1075 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:04
+# Time: 1080 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:03
+# Time: 1085 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:03
+# Time: 1090 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:02
+# Time: 1095 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:02
+# Time: 1100 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:01
+# Time: 1105 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:01
+# Time: 1110 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:00
+# Time: 1115 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 8:00
+# Time: 1120 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:59
+# Time: 1125 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:59
+# Time: 1130 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:58
+# Time: 1135 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:58
+# Time: 1140 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:57
+# Time: 1145 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:57
+# Time: 1150 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:56
+# Time: 1155 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:56
+# Time: 1160 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:55
+# Time: 1165 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:55
+# Time: 1170 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:54
+# Time: 1175 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:54
+# Time: 1180 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:53
+# Time: 1185 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:53
+# Time: 1190 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:52
+# Time: 1195 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:52
+# Time: 1200 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:51
+# Time: 1205 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:51
+# Time: 1210 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:50
+# Time: 1215 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:50
+# Time: 1220 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:49
+# Time: 1225 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:49
+# Time: 1230 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:48
+# Time: 1235 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:48
+# Time: 1240 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:47
+# Time: 1245 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:47
+# Time: 1250 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:46
+# Time: 1255 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:46
+# Time: 1260 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:45
+# Time: 1265 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:45
+# Time: 1270 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:44
+# Time: 1275 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:44
+# Time: 1280 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:43
+# Time: 1285 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:43
+# Time: 1290 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:42
+# Time: 1295 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:42
+# Time: 1300 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:41
+# Time: 1305 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:41
+# Time: 1310 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:40
+# Time: 1315 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:40
+# Time: 1320 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:39
+# Time: 1325 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:39
+# Time: 1330 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:38
+# Time: 1335 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:38
+# Time: 1340 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:37
+# Time: 1345 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:37
+# Time: 1350 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:36
+# Time: 1355 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:36
+# Time: 1360 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:35
+# Time: 1365 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:35
+# Time: 1370 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:34
+# Time: 1375 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:34
+# Time: 1380 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:33
+# Time: 1385 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:33
+# Time: 1390 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:32
+# Time: 1395 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:32
+# Time: 1400 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:31
+# Time: 1405 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:31
+# Time: 1410 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:30
+# Time: 1415 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:30
+# Time: 1420 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:29
+# Time: 1425 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:29
+# Time: 1430 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:28
+# Time: 1435 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:28
+# Time: 1440 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:27
+# Time: 1445 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:27
+# Time: 1450 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:26
+# Time: 1455 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:26
+# Time: 1460 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:25
+# Time: 1465 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:25
+# Time: 1470 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:24
+# Time: 1475 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:24
+# Time: 1480 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:23
+# Time: 1485 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:23
+# Time: 1490 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:22
+# Time: 1495 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:22
+# Time: 1500 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:21
+# Time: 1505 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:21
+# Time: 1510 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:20
+# Time: 1515 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:20
+# Time: 1520 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:19
+# Time: 1525 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:19
+# Time: 1530 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:18
+# Time: 1535 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:18
+# Time: 1540 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:17
+# Time: 1545 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:17
+# Time: 1550 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:16
+# Time: 1555 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:16
+# Time: 1560 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:15
+# Time: 1565 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:15
+# Time: 1570 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:14
+# Time: 1575 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:14
+# Time: 1580 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:13
+# Time: 1585 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:13
+# Time: 1590 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:12
+# Time: 1595 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:12
+# Time: 1600 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:11
+# Time: 1605 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:11
+# Time: 1610 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:10
+# Time: 1615 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:10
+# Time: 1620 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:09
+# Time: 1625 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:09
+# Time: 1630 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:08
+# Time: 1635 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:08
+# Time: 1640 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:07
+# Time: 1645 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:07
+# Time: 1650 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:06
+# Time: 1655 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:06
+# Time: 1660 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:05
+# Time: 1665 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:05
+# Time: 1670 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:04
+# Time: 1675 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:04
+# Time: 1680 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:03
+# Time: 1685 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:03
+# Time: 1690 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:02
+# Time: 1695 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:02
+# Time: 1700 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:01
+# Time: 1705 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:01
+# Time: 1710 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:00
+# Time: 1715 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 7:00
+# Time: 1720 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:59
+# Time: 1725 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:59
+# Time: 1730 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:58
+# Time: 1735 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:58
+# Time: 1740 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:57
+# Time: 1745 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:57
+# Time: 1750 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:56
+# Time: 1755 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:56
+# Time: 1760 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:55
+# Time: 1765 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:55
+# Time: 1770 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:54
+# Time: 1775 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:54
+# Time: 1780 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:53
+# Time: 1785 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:53
+# Time: 1790 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:52
+# Time: 1795 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:52
+# Time: 1800 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:51
+# Time: 1805 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:51
+# Time: 1810 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:50
+# Time: 1815 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:50
+# Time: 1820 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:49
+# Time: 1825 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:49
+# Time: 1830 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:48
+# Time: 1835 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:48
+# Time: 1840 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:47
+# Time: 1845 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:47
+# Time: 1850 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:46
+# Time: 1855 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:46
+# Time: 1860 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:45
+# Time: 1865 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:45
+# Time: 1870 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:44
+# Time: 1875 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:44
+# Time: 1880 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:43
+# Time: 1885 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:43
+# Time: 1890 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:42
+# Time: 1895 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:42
+# Time: 1900 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:41
+# Time: 1905 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:41
+# Time: 1910 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:40
+# Time: 1915 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:40
+# Time: 1920 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:39
+# Time: 1925 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:39
+# Time: 1930 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:38
+# Time: 1935 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:38
+# Time: 1940 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:37
+# Time: 1945 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:37
+# Time: 1950 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:36
+# Time: 1955 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:36
+# Time: 1960 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:35
+# Time: 1965 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:35
+# Time: 1970 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:34
+# Time: 1975 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:34
+# Time: 1980 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:33
+# Time: 1985 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:33
+# Time: 1990 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:32
+# Time: 1995 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:32
+# Time: 2000 ns	 Clk = 0	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:31
+# Time: 2005 ns	 Clk = 1	 nReset = 1	 CounterEnable = 1	 CounterInput = 5	 Time = 6:31
+# Finished simulation at                 2010 ns.
+# ** Note: $stop    : C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/tb_Counter_Main.v(31)
+#    Time: 2010 ns  Iteration: 0  Instance: /tb_Counter_Main
+# Break in Module tb_Counter_Main at C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/tb_Counter_Main.v line 31
+# End time: 00:30:58 on Dec 22,2022, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 2

@@ -1,3 +1,1 @@
-Warning (10273): Verilog HDL warning at Counter_Main.v(33): extended using "x" or "z" File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/Counter_Main.v Line: 33
-Warning (10273): Verilog HDL warning at Counter_Main.v(34): extended using "x" or "z" File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/Counter_Main.v Line: 34
-Warning (10273): Verilog HDL warning at Counter_Main.v(35): extended using "x" or "z" File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/Counter_Main.v Line: 35
+Warning (10268): Verilog HDL information at ComplexCounter_4Bit.v(27): always construct contains both blocking and non-blocking assignments File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/ComplexCounter_4Bit.v Line: 27

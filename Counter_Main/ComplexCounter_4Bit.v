@@ -14,10 +14,10 @@ module ComplexCounter_4Bit(
 
 	reg [3:0]	cState, nState;
 	
-	always @ (negedge Clk)
+	always @ (negedge Clk, negedge nReset)
 	begin
 		if (!nReset)
-			cState <= 4'b1001; //9
+			cState <= 4'b0000; //9
 		else
 			cState <= nState;
 	end
@@ -26,7 +26,7 @@ module ComplexCounter_4Bit(
 	begin
 		if (Enable)
 			begin
-				if (Mode == 4'd9)
+				if (Mode == 4'b1001)
 					begin
 						case (cState)
 							4'b1001 : nState <= 4'b1000;  //9
@@ -41,7 +41,7 @@ module ComplexCounter_4Bit(
 							default : nState <= 4'b1001;  //0 -> 9
 						endcase
 					end
-				else if (Mode == 4'd5)
+				else if (Mode == 4'b0101)
 					begin
 						case (cState)
 							4'b0101 : nState <= 4'b0100;  //5
@@ -52,15 +52,22 @@ module ComplexCounter_4Bit(
 							default : nState <= 4'b0101;  //0 -> 5
 						endcase
 					end
-				else if (Mode == 4'd1)
+				else if (Mode == 4'b0001)
 					begin
 						case (cState)
 							4'b0001 : nState <= 4'b0000;  //1
-							default : nState <= 4'b0101;  //0 -> 1
+							default : nState <= 4'b0001;  //0 -> 1
 						endcase 
 					end
 				else
-					nState <= 4'b0000;
+					begin
+						if(Mode == 4'b0101)
+							nState = 4'b0101;
+						else if(Mode == 4'b0001)
+							nState = 4'b0001;
+						else 
+							nState = 4'b1001;
+					end
 			end
 		else 
 			nState <= cState;

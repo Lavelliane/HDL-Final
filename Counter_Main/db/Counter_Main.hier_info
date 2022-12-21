@@ -1,8 +1,8 @@
 |Counter_Main
-CounterInput[0] => Equal2.IN0
-CounterInput[1] => Equal2.IN3
-CounterInput[2] => Equal2.IN2
-CounterInput[3] => Equal2.IN1
+CounterInput[0] => Equal3.IN0
+CounterInput[1] => Equal3.IN3
+CounterInput[2] => Equal3.IN2
+CounterInput[3] => Equal3.IN1
 CounterEnable => CounterEnable.IN1
 Clk => Clk.IN3
 nReset => nReset.IN3
@@ -18,32 +18,11 @@ S3[0] << ComplexCounter_4Bit:C3.Count
 S3[1] << ComplexCounter_4Bit:C3.Count
 S3[2] << ComplexCounter_4Bit:C3.Count
 S3[3] << ComplexCounter_4Bit:C3.Count
-S4[0] << <GND>
-S4[1] << <GND>
-S4[2] << <GND>
-S4[3] << <GND>
-S5[0] << <GND>
-S5[1] << <GND>
-S5[2] << <GND>
-S5[3] << <GND>
-S6[0] << <GND>
-S6[1] << <GND>
-S6[2] << <GND>
-S6[3] << <GND>
 
 
 |Counter_Main|ComplexCounter_4Bit:C1
 Clk => cState~1.DATAIN
-nReset => cState.OUTPUTSELECT
-nReset => cState.OUTPUTSELECT
-nReset => cState.OUTPUTSELECT
-nReset => cState.OUTPUTSELECT
-nReset => cState.OUTPUTSELECT
-nReset => cState.OUTPUTSELECT
-nReset => cState.OUTPUTSELECT
-nReset => cState.OUTPUTSELECT
-nReset => cState.OUTPUTSELECT
-nReset => cState.OUTPUTSELECT
+nReset => cState~3.DATAIN
 Enable => nState.0000.OUTPUTSELECT
 Enable => nState.0001.OUTPUTSELECT
 Enable => nState.0010.OUTPUTSELECT
@@ -74,16 +53,7 @@ Count[3] <= Count.DB_MAX_OUTPUT_PORT_TYPE
 
 |Counter_Main|ComplexCounter_4Bit:C2
 Clk => cState~1.DATAIN
-nReset => cState.OUTPUTSELECT
-nReset => cState.OUTPUTSELECT
-nReset => cState.OUTPUTSELECT
-nReset => cState.OUTPUTSELECT
-nReset => cState.OUTPUTSELECT
-nReset => cState.OUTPUTSELECT
-nReset => cState.OUTPUTSELECT
-nReset => cState.OUTPUTSELECT
-nReset => cState.OUTPUTSELECT
-nReset => cState.OUTPUTSELECT
+nReset => cState~3.DATAIN
 Enable => nState.0000.OUTPUTSELECT
 Enable => nState.0001.OUTPUTSELECT
 Enable => nState.0010.OUTPUTSELECT
@@ -114,16 +84,7 @@ Count[3] <= Count.DB_MAX_OUTPUT_PORT_TYPE
 
 |Counter_Main|ComplexCounter_4Bit:C3
 Clk => cState~1.DATAIN
-nReset => cState.OUTPUTSELECT
-nReset => cState.OUTPUTSELECT
-nReset => cState.OUTPUTSELECT
-nReset => cState.OUTPUTSELECT
-nReset => cState.OUTPUTSELECT
-nReset => cState.OUTPUTSELECT
-nReset => cState.OUTPUTSELECT
-nReset => cState.OUTPUTSELECT
-nReset => cState.OUTPUTSELECT
-nReset => cState.OUTPUTSELECT
+nReset => cState~3.DATAIN
 Enable => nState.0000.OUTPUTSELECT
 Enable => nState.0001.OUTPUTSELECT
 Enable => nState.0010.OUTPUTSELECT

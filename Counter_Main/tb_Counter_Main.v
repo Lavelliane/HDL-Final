@@ -26,7 +26,7 @@ module tb_Counter_Main ();
 		nReset = 1'b0;		            #10
 		nReset = 1'b1;	
 							CounterEnable = 1;            
-													CounterInput = 4'd5;	#100
+													CounterInput = 4'd5;	#2000
 		$display("Finished simulation at %d ns.", $time);
 		$stop;
 	end
