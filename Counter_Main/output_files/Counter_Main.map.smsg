@@ -1,1 +1,1 @@
-Warning (10268): Verilog HDL information at ComplexCounter_4Bit.v(27): always construct contains both blocking and non-blocking assignments File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/ComplexCounter_4Bit.v Line: 27
+Warning (10268): Verilog HDL information at ComplexCounter_4Bit.v(17): always construct contains both blocking and non-blocking assignments File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/ComplexCounter_4Bit.v Line: 17

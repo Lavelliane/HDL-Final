@@ -48,11 +48,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "Clk",
+					"name" : "nReset",
 					"strict" : false
 				},
 				{
-					"name" : "nReset",
+					"name" : "Clk",
 					"strict" : false
 				},
 				{

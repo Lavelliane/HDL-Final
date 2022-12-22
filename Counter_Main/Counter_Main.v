@@ -6,13 +6,13 @@ module Counter_Main(CounterInput, CounterEnable, Clk, nReset, S1, S2, S3);
 
 	input [3:0]CounterInput;
 	input CounterEnable, Clk, nReset;
-	output [3:0]S1, S2, S3;
+	output [3:0] S1, S2, S3;
 	
-
-
-	ComplexCounter_4Bit C1(.Clk(Clk), .nReset(nReset), .Enable(CounterEnable), .Mode(4'd9), .Count(S1)); //9
-	ComplexCounter_4Bit C2(.Clk(Clk), .nReset(nReset), .Enable(S1 == 4'd0), .Mode(4'd5), .Count(S2));  //5
-	ComplexCounter_4Bit C3(.Clk(Clk), .nReset(nReset), .Enable(S2 == 4'd0 && S1 == 4'd0), .Mode(CounterInput == 4'b0001 ? 4'b0001 : 4'b1001), .Count(S3)); //1:59
+	ComplexCounter_4Bit C3(.Clk(Clk), .nReset(nReset), .Enable(S2==4'b0000 && S1 ==4'b0000 ), .Mode(CounterInput == 4'd1 ? 4'b0001 : 4'd9), .Count(S3)); //1:59
+	ComplexCounter_4Bit C2(.Clk(Clk), .nReset(nReset), .Enable(S1==4'b0000), .Mode(4'b0101), .Count(S2));  //5
+	ComplexCounter_4Bit C1(.Clk(Clk), .nReset(nReset), .Enable(CounterEnable), .Mode(4'b1001), .Count(S1)); //9
+	
+	
 
 
 			
