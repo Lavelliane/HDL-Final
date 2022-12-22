@@ -6,18 +6,18 @@ CounterInput[3] => Equal2.IN1
 CounterEnable => CounterEnable.IN1
 Clk => Clk.IN3
 nReset => nReset.IN3
-S1[0] << ComplexCounter_4Bit:C1.Count
-S1[1] << ComplexCounter_4Bit:C1.Count
-S1[2] << ComplexCounter_4Bit:C1.Count
-S1[3] << ComplexCounter_4Bit:C1.Count
-S2[0] << ComplexCounter_4Bit:C2.Count
-S2[1] << ComplexCounter_4Bit:C2.Count
-S2[2] << ComplexCounter_4Bit:C2.Count
-S2[3] << ComplexCounter_4Bit:C2.Count
-S3[0] << ComplexCounter_4Bit:C3.Count
-S3[1] << ComplexCounter_4Bit:C3.Count
-S3[2] << ComplexCounter_4Bit:C3.Count
-S3[3] << ComplexCounter_4Bit:C3.Count
+PresentTime[0] <= ComplexCounter_4Bit:C3.Count
+PresentTime[1] <= ComplexCounter_4Bit:C3.Count
+PresentTime[2] <= ComplexCounter_4Bit:C3.Count
+PresentTime[3] <= ComplexCounter_4Bit:C3.Count
+PresentTime[4] <= ComplexCounter_4Bit:C2.Count
+PresentTime[5] <= ComplexCounter_4Bit:C2.Count
+PresentTime[6] <= ComplexCounter_4Bit:C2.Count
+PresentTime[7] <= ComplexCounter_4Bit:C2.Count
+PresentTime[8] <= ComplexCounter_4Bit:C1.Count
+PresentTime[9] <= ComplexCounter_4Bit:C1.Count
+PresentTime[10] <= ComplexCounter_4Bit:C1.Count
+PresentTime[11] <= ComplexCounter_4Bit:C1.Count
 
 
 |Counter_Main|ComplexCounter_4Bit:C3

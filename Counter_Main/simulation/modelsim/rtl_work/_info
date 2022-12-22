@@ -10,23 +10,23 @@ z2
 cModel Technology
 Z0 dC:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/simulation/modelsim
 vComplexCounter_4Bit
-Z1 !s110 1671692248
+Z1 !s110 1671719051
 !i10b 1
-!s100 =TeHOb0b3FhGX;Ob_TNA23
+!s100 2Q=e37KzkWNVSP:1@eWB70
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IA^MV@427DAZUokf7KL`=A2
+INe]:I@BLk00R]hLmEBo0G1
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1671692145
+w1671697260
 8C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/ComplexCounter_4Bit.v
 FC:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/ComplexCounter_4Bit.v
 !i122 1
-L0 9 76
+L0 9 73
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1671692248.000000
+Z5 !s108 1671719051.000000
 !s107 C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/ComplexCounter_4Bit.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main|C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/ComplexCounter_4Bit.v|
 !i113 1
@@ -35,23 +35,23 @@ Z7 !s92 -vlog01compat -work work {+incdir+C:/Users/Jhury/Desktop/SCHOOL STUFF/Cp
 Z8 tCvgOpt 0
 n@complex@counter_4@bit
 vCounter_Main
-!s110 1671692247
+R1
 !i10b 1
-!s100 I6Qz_BF0OHhIc1m3F7m>03
+!s100 =gCd`kJf<zSbnglnZL6Dj0
 R2
-IbQKc_IZeTlTQ5FP6;C`MZ3
+Ie_B4=kZR5B[HC[JFa;Xca2
 R3
 R0
-w1671692104
+w1671718987
 8C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/Counter_Main.v
 FC:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/Counter_Main.v
 !i122 0
-L0 5 15
+L0 5 16
 R4
 r1
 !s85 0
 31
-!s108 1671692247.000000
+R5
 !s107 C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/Counter_Main.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main|C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/Counter_Main.v|
 !i113 1
@@ -62,12 +62,12 @@ n@counter_@main
 vtb_Counter_Main
 R1
 !i10b 1
-!s100 n>eHdfoz5Q@ThmD0Z[znT0
+!s100 <4E49Zg<jE5C^zRKDaUI43
 R2
-I>mg`MnE>NkT;2YkQVY4@Q2
+Ie]k^@[_TUEYK^o?Eb<in@2
 R3
 R0
-w1671692225
+w1671719029
 8C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/tb_Counter_Main.v
 FC:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/tb_Counter_Main.v
 !i122 2

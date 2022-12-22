@@ -1,0 +1,16 @@
+module ChargingStation(Coin, Enable, isRunning, PresentTime);
+
+
+	input [2:0]Coin;
+	input Enable, isRunning;
+	output [11:0]PresentTime;
+	
+	
+
+
+
+
+
+
+
+endmodule

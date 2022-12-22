@@ -5,13 +5,12 @@ Coin[1] => Equal0.IN2
 Coin[1] => Equal1.IN2
 Coin[2] => Equal0.IN1
 Coin[2] => Equal1.IN0
-Enable => Mode[1]$latch.ACLR
-Enable => Mode[3]$latch.ACLR
-isRunning => Mode[3]$latch.LATCH_ENABLE
-isRunning => Mode[1]$latch.LATCH_ENABLE
-Mode[0] <= <GND>
-Mode[1] <= Mode[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
-Mode[2] <= <GND>
-Mode[3] <= Mode[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Enable => always0.IN0
+isRunning => always0.IN1
+isRunning => Mode.DATAA
+Mode[0] << Mode.DB_MAX_OUTPUT_PORT_TYPE
+Mode[1] << Mode.DB_MAX_OUTPUT_PORT_TYPE
+Mode[2] << <GND>
+Mode[3] << Mode.DB_MAX_OUTPUT_PORT_TYPE
 
 

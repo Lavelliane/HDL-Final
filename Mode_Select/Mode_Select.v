@@ -6,21 +6,18 @@ module Mode_Select(Coin, Enable, isRunning, Mode);
 	
 	always@(*)
 		begin
-			if(!Enable)
+			if(!Enable || isRunning)
 				Mode = 4'd0;
 			else
 				begin
-					if(isRunning);
-						//NOP
+	
+					if(Coin == 3'b001)
+						Mode = {3'b001, isRunning};
+					else if(Coin == 3'b101)
+						Mode = {3'b101, isRunning};
 					else
-						begin
-							if(Coin == 3'b001)
-								Mode = {3'b001, isRunning};
-							else if(Coin == 3'b101)
-								Mode = {3'b101, isRunning};
-							else
-								Mode = {3'b000, isRunning};	
-						end
+						Mode = {3'b000, isRunning};	
+				
 				end		
 		
 		end	

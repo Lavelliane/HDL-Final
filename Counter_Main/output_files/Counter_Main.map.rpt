@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Counter_Main
-Thu Dec 22 14:57:14 2022
+Thu Dec 22 22:23:59 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -52,7 +52,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Dec 22 14:57:14 2022       ;
+; Analysis & Synthesis Status        ; Successful - Thu Dec 22 22:23:59 2022       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; Counter_Main                                ;
 ; Top-level Entity Name              ; Counter_Main                                ;
@@ -409,7 +409,7 @@ Encoding Type:  One-Hot
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Thu Dec 22 14:57:06 2022
+    Info: Processing started: Thu Dec 22 22:23:51 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Counter_Main -c Counter_Main
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
@@ -420,11 +420,11 @@ Info (12021): Found 1 design units, including 1 entities, in source file complex
 Info (12021): Found 1 design units, including 1 entities, in source file tb_counter_main.v
     Info (12023): Found entity 1: tb_Counter_Main File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/tb_Counter_Main.v Line: 10
 Info (12127): Elaborating entity "Counter_Main" for the top level hierarchy
-Info (12128): Elaborating entity "ComplexCounter_4Bit" for hierarchy "ComplexCounter_4Bit:C3" File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/Counter_Main.v Line: 11
+Info (12128): Elaborating entity "ComplexCounter_4Bit" for hierarchy "ComplexCounter_4Bit:C3" File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/Counter_Main.v Line: 12
 Info (10264): Verilog HDL Case Statement information at ComplexCounter_4Bit.v(31): all case item expressions in this case statement are onehot File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/ComplexCounter_4Bit.v Line: 31
 Info (10264): Verilog HDL Case Statement information at ComplexCounter_4Bit.v(46): all case item expressions in this case statement are onehot File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/ComplexCounter_4Bit.v Line: 46
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "S2[3]" is stuck at GND File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/Counter_Main.v Line: 9
+    Warning (13410): Pin "PresentTime[7]" is stuck at GND File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/Counter_Main.v Line: 10
 Info (286030): Timing-Driven Synthesis is running
 Info (17049): 12 registers lost all their fanouts during netlist optimizations.
 Info (144001): Generated suppressed messages file C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Counter_Main/output_files/Counter_Main.map.smsg
@@ -435,10 +435,10 @@ Info (21057): Implemented 66 device resources after synthesis - the final resour
     Info (21059): Implemented 12 output pins
     Info (21061): Implemented 47 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 3 warnings
-    Info: Peak virtual memory: 4774 megabytes
-    Info: Processing ended: Thu Dec 22 14:57:14 2022
+    Info: Peak virtual memory: 4776 megabytes
+    Info: Processing ended: Thu Dec 22 22:23:59 2022
     Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:16
+    Info: Total CPU time (on all processors): 00:00:17
 
 
 +------------------------------------------+

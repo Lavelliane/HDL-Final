@@ -16,15 +16,15 @@
 					"strict" : false
 				},
 				{
+					"name" : "Enable",
+					"strict" : false
+				},
+				{
 					"name" : "Coin[1]",
 					"strict" : false
 				},
 				{
 					"name" : "isRunning",
-					"strict" : false
-				},
-				{
-					"name" : "Enable",
 					"strict" : false
 				},
 				{

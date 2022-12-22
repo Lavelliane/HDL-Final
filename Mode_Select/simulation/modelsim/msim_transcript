@@ -1,0 +1,53 @@
+# Reading pref.tcl
+# do Mode_Select_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Jhury/Desktop/SCHOOL\ STUFF/CpE\ -\ 3rd\ Year/HDL/FINAL\ PROJ/HDL-Final/Mode_Select {C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Mode_Select/Mode_Select.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:01:15 on Dec 22,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Mode_Select" C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Mode_Select/Mode_Select.v 
+# -- Compiling module Mode_Select
+# 
+# Top level modules:
+# 	Mode_Select
+# End time: 23:01:15 on Dec 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Jhury/Desktop/SCHOOL\ STUFF/CpE\ -\ 3rd\ Year/HDL/FINAL\ PROJ/HDL-Final/Mode_Select {C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Mode_Select/tb_Mode_Select.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:01:15 on Dec 22,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Mode_Select" C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Mode_Select/tb_Mode_Select.v 
+# -- Compiling module tb_Mode_Select
+# 
+# Top level modules:
+# 	tb_Mode_Select
+# End time: 23:01:15 on Dec 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  tb_Mode_Select
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" tb_Mode_Select 
+# Start time: 23:01:15 on Dec 22,2022
+# Loading work.tb_Mode_Select
+# Loading work.Mode_Select
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Time:   0 ns	 Enable = 0	 Coin =   1	 isRunning = 1	 Mode:0000
+# Time:  10 ns	 Enable = 1	 Coin =   1	 isRunning = 0	 Mode:0010
+# ** Note: $stop    : C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Mode_Select/tb_Mode_Select.v(24)
+#    Time: 30 ns  Iteration: 0  Instance: /tb_Mode_Select
+# Break in Module tb_Mode_Select at C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Mode_Select/tb_Mode_Select.v line 24
+# End time: 23:01:23 on Dec 22,2022, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 0

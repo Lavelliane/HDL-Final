@@ -4,59 +4,51 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "S1[0]",
+					"name" : "PresentTime[0]",
 					"strict" : false
 				},
 				{
-					"name" : "S1[1]",
+					"name" : "PresentTime[1]",
 					"strict" : false
 				},
 				{
-					"name" : "S1[2]",
+					"name" : "PresentTime[2]",
 					"strict" : false
 				},
 				{
-					"name" : "S1[3]",
+					"name" : "PresentTime[3]",
 					"strict" : false
 				},
 				{
-					"name" : "S2[0]",
+					"name" : "PresentTime[4]",
 					"strict" : false
 				},
 				{
-					"name" : "S2[1]",
+					"name" : "PresentTime[5]",
 					"strict" : false
 				},
 				{
-					"name" : "S2[2]",
+					"name" : "PresentTime[6]",
 					"strict" : false
 				},
 				{
-					"name" : "S3[0]",
+					"name" : "PresentTime[8]",
 					"strict" : false
 				},
 				{
-					"name" : "S3[1]",
+					"name" : "PresentTime[9]",
 					"strict" : false
 				},
 				{
-					"name" : "S3[2]",
+					"name" : "PresentTime[10]",
 					"strict" : false
 				},
 				{
-					"name" : "S3[3]",
-					"strict" : false
-				},
-				{
-					"name" : "nReset",
+					"name" : "PresentTime[11]",
 					"strict" : false
 				},
 				{
 					"name" : "Clk",
-					"strict" : false
-				},
-				{
-					"name" : "CounterEnable",
 					"strict" : false
 				},
 				{
@@ -73,6 +65,14 @@
 				},
 				{
 					"name" : "CounterInput[3]",
+					"strict" : false
+				},
+				{
+					"name" : "nReset",
+					"strict" : false
+				},
+				{
+					"name" : "CounterEnable",
 					"strict" : false
 				}
 			]
