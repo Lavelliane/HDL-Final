@@ -1,5 +1,5 @@
 Flow report for ChargingStation
-Thu Dec 22 23:31:46 2022
+Fri Dec 23 13:17:53 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -41,17 +41,17 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Thu Dec 22 23:31:46 2022       ;
+; Flow Status                        ; Successful - Fri Dec 23 13:17:53 2022       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; ChargingStation                             ;
-; Top-level Entity Name              ; ChargingStation                             ;
+; Top-level Entity Name              ; Counter_Main                                ;
 ; Family                             ; MAX 10                                      ;
 ; Device                             ; 10M02DCU324A6G                              ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 37                                          ;
-;     Total combinational functions  ; 37                                          ;
-;     Dedicated logic registers      ; 18                                          ;
-; Total registers                    ; 18                                          ;
+; Total logic elements               ; 60                                          ;
+;     Total combinational functions  ; 60                                          ;
+;     Dedicated logic registers      ; 26                                          ;
+; Total registers                    ; 26                                          ;
 ; Total pins                         ; 18                                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
@@ -67,42 +67,47 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 12/22/2022 23:31:39 ;
+; Start date & time ; 12/23/2022 13:17:45 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; ChargingStation     ;
 +-------------------+---------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                                ;
-+--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
-+--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 198112232865762.167172309802376        ; --            ; --          ; --                                ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_ChargingStation                ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_timing_analysis               ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_signal_integrity ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_formal_verification           ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_symbol           ;
-; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; tb_ChargingStation                     ; --            ; --          ; eda_simulation                    ;
-; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --            ; --          ; eda_simulation                    ;
-; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)              ; <None>        ; --          ; --                                ;
-; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --            ; --          ; eda_simulation                    ;
-; EDA_TEST_BENCH_FILE                  ; tb_ChargingStation.v                   ; --            ; --          ; tb_ChargingStation                ;
-; EDA_TEST_BENCH_MODULE_NAME           ; tb_ChargingStation                     ; --            ; --          ; tb_ChargingStation                ;
-; EDA_TEST_BENCH_NAME                  ; tb_ChargingStation                     ; --            ; --          ; eda_simulation                    ;
-; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --          ; eda_simulation                    ;
-; MAX_CORE_JUNCTION_TEMP               ; 125                                    ; --            ; --          ; --                                ;
-; MIN_CORE_JUNCTION_TEMP               ; -40                                    ; --            ; --          ; --                                ;
-; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --            ; --          ; Top                               ;
-; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --            ; --          ; Top                               ;
-; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --            ; --          ; Top                               ;
-; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                    ; --            ; --          ; --                                ;
-; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --                                ;
-; PROJECT_OUTPUT_DIRECTORY             ; output_files                           ; --            ; --          ; --                                ;
-+--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                   ;
++--------------------------------------+----------------------------------------+-----------------+--------------+-----------------------------------+
+; Assignment Name                      ; Value                                  ; Default Value   ; Entity Name  ; Section Id                        ;
++--------------------------------------+----------------------------------------+-----------------+--------------+-----------------------------------+
+; COMPILER_SIGNATURE_ID                ; 198112232865762.167177266404928        ; --              ; --           ; --                                ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --              ; --           ; tb_Counter                        ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --              ; --           ; tb_ChargingStation                ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --              ; --           ; eda_board_design_timing           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --              ; --           ; eda_timing_analysis               ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --              ; --           ; eda_board_design_boundary_scan    ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --              ; --           ; eda_board_design_signal_integrity ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --              ; --           ; eda_formal_verification           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --              ; --           ; eda_board_design_symbol           ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; tb_ChargingStation                     ; --              ; --           ; eda_simulation                    ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --              ; --           ; eda_simulation                    ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)              ; <None>          ; --           ; --                                ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --              ; --           ; eda_simulation                    ;
+; EDA_TEST_BENCH_FILE                  ; tb_Counter.v                           ; --              ; --           ; tb_Counter                        ;
+; EDA_TEST_BENCH_FILE                  ; tb_ChargingStation.v                   ; --              ; --           ; tb_ChargingStation                ;
+; EDA_TEST_BENCH_MODULE_NAME           ; tb_Counter                             ; --              ; --           ; tb_Counter                        ;
+; EDA_TEST_BENCH_MODULE_NAME           ; tb_ChargingStation                     ; --              ; --           ; tb_ChargingStation                ;
+; EDA_TEST_BENCH_NAME                  ; tb_ChargingStation                     ; --              ; --           ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; tb_Counter                             ; --              ; --           ; eda_simulation                    ;
+; EDA_TIME_SCALE                       ; 1 ps                                   ; --              ; --           ; eda_simulation                    ;
+; MAX_CORE_JUNCTION_TEMP               ; 125                                    ; --              ; --           ; --                                ;
+; MIN_CORE_JUNCTION_TEMP               ; -40                                    ; --              ; --           ; --                                ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --              ; Counter_Main ; Top                               ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --              ; Counter_Main ; Top                               ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --              ; Counter_Main ; Top                               ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                    ; --              ; --           ; --                                ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --              ; --           ; --                                ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                           ; --              ; --           ; --                                ;
+; TOP_LEVEL_ENTITY                     ; Counter_Main                           ; ChargingStation ; --           ; --                                ;
++--------------------------------------+----------------------------------------+-----------------+--------------+-----------------------------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
@@ -110,8 +115,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:08     ; 1.0                     ; 4776 MB             ; 00:00:17                           ;
-; Total                ; 00:00:08     ; --                      ; --                  ; 00:00:17                           ;
+; Analysis & Synthesis ; 00:00:09     ; 1.0                     ; 4775 MB             ; 00:00:17                           ;
+; Total                ; 00:00:09     ; --                      ; --                  ; 00:00:17                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

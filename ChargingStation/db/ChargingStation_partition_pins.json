@@ -8,6 +8,14 @@
 					"strict" : false
 				},
 				{
+					"name" : "PresentTime[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PresentTime[2]",
+					"strict" : false
+				},
+				{
 					"name" : "PresentTime[3]",
 					"strict" : false
 				},
@@ -48,7 +56,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "Coin[1]",
+					"name" : "Coin[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ModeEnable",
 					"strict" : false
 				},
 				{
@@ -56,11 +68,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "Coin[2]",
-					"strict" : false
-				},
-				{
-					"name" : "Enable",
+					"name" : "Coin[1]",
 					"strict" : false
 				}
 			]

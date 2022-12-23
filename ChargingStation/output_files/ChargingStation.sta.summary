@@ -1,0 +1,65 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 125C Model Setup 'Clk'
+Slack : -3.201
+TNS   : -63.718
+
+Type  : Slow 1200mV 125C Model Hold 'Clk'
+Slack : 0.292
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'Clk'
+Slack : -3.000
+TNS   : -39.478
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'Coin[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'ComplexCounter_4Bit:C1|cState.0000'
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Setup 'Clk'
+Slack : -2.653
+TNS   : -51.938
+
+Type  : Slow 1200mV -40C Model Hold 'Clk'
+Slack : 0.271
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'Clk'
+Slack : -3.000
+TNS   : -36.202
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'Coin[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'ComplexCounter_4Bit:C1|cState.0000'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Setup 'Clk'
+Slack : -0.871
+TNS   : -12.932
+
+Type  : Fast 1200mV -40C Model Hold 'Clk'
+Slack : 0.110
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'Clk'
+Slack : -3.000
+TNS   : -29.112
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'Coin[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'ComplexCounter_4Bit:C1|cState.0000'
+Slack : 0.426
+TNS   : 0.000
+
+------------------------------------------------------------

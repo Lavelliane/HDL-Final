@@ -5,7 +5,7 @@ module tb_ChargingStation ();
 	reg Enable, Clk, nReset;
 	wire [11:0]PresentTime;
 	
-	ChargingStation UUT ( .Clk(Clk), .nReset(nReset), .Enable(Enable), .Coin(Coin), .PresentTime(PresentTime));
+	Counter_Main UUT ( .Clk(Clk), .nReset(nReset), .ModeEnable(Enable), .Coin(Coin), .PresentTime(PresentTime));
 	
 	initial
 		Clk = 1'b0;
@@ -15,10 +15,10 @@ module tb_ChargingStation ();
 		
 	initial begin
 		$display("Starting simulation at %d ns...", $time);
-		nReset = 1'b0;		            #10
-		nReset = 1'b1;	
-							Enable = 1'd1;            
-													Coin = 3'd1;	#2000
+		nReset = 1'b0;		                              #10
+		nReset = 1'b1;	                 
+							Enable = 1'd1;							
+													Coin = 4'b0101;	#2000
 		$display("Finished simulation at %d ns.", $time);
 		$stop;
 	end
