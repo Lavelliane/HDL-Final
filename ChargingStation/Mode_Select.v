@@ -25,11 +25,7 @@ module Mode_Select(Coin, nReset,Enable, Mode);
 						end
 				
 				end		
-			end
-			
-		
-
-				
+			end	
 		
 		end	
 endmodule

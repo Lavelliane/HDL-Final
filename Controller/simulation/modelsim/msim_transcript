@@ -1,0 +1,56 @@
+# Reading pref.tcl
+# do Controller_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Jhury/Desktop/SCHOOL\ STUFF/CpE\ -\ 3rd\ Year/HDL/FINAL\ PROJ/HDL-Final/Controller {C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Controller/Controller.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:42:19 on Dec 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Controller" C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Controller/Controller.v 
+# -- Compiling module Controller
+# 
+# Top level modules:
+# 	Controller
+# End time: 20:42:19 on Dec 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Jhury/Desktop/SCHOOL\ STUFF/CpE\ -\ 3rd\ Year/HDL/FINAL\ PROJ/HDL-Final/Controller {C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Controller/tb_Controller.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:42:20 on Dec 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Controller" C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Controller/tb_Controller.v 
+# -- Compiling module tb_Controller
+# 
+# Top level modules:
+# 	tb_Controller
+# End time: 20:42:20 on Dec 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  tb_Controller
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" tb_Controller 
+# Start time: 20:42:20 on Dec 27,2022
+# Loading work.tb_Controller
+# Loading work.Controller
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Starting Simulation at 0 ns...
+# Time =  0 ns 	 Mode = 0000 	 PresentTime = 000000000000 	C_Input = 0000 	 C_En = 0 	 	 isRunning = 0
+# Time = 10 ns 	 Mode = 0010 	 PresentTime = 010000000000 	C_Input = 0001 	 C_En = 1 	 	 isRunning = 1
+# Time = 30 ns 	 Mode = 1010 	 PresentTime = 010000000000 	C_Input = 0101 	 C_En = 1 	 	 isRunning = 1
+# Finished Simulation at 50 ns...
+# ** Note: $stop    : C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Controller/tb_Controller.v(20)
+#    Time: 50 ns  Iteration: 0  Instance: /tb_Controller
+# Break in Module tb_Controller at C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Controller/tb_Controller.v line 20
+# End time: 20:49:57 on Dec 27,2022, Elapsed time: 0:07:37
+# Errors: 0, Warnings: 0

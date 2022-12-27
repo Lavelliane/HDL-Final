@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Wed Dec 21 15:51:25 2022
+Analysis & Synthesis Status : Successful - Tue Dec 27 20:35:47 2022
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : Controller
 Top-level Entity Name : Controller
 Family : MAX 10
-Total logic elements : 9
-    Total combinational functions : 9
+Total logic elements : 6
+    Total combinational functions : 6
     Dedicated logic registers : 0
 Total registers : 0
 Total pins : 22

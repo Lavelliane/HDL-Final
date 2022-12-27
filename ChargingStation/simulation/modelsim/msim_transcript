@@ -10,63 +10,63 @@
 # Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/Paul\ John/Downloads/ChargingStation {C:/Users/Paul John/Downloads/ChargingStation/Mode_Select.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Jhury/Desktop/SCHOOL\ STUFF/CpE\ -\ 3rd\ Year/HDL/FINAL\ PROJ/HDL-Final/ChargingStation {C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/ChargingStation.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 12:50:34 on Dec 23,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Paul John/Downloads/ChargingStation" C:/Users/Paul John/Downloads/ChargingStation/Mode_Select.v 
+# Start time: 21:27:43 on Dec 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation" C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/ChargingStation.v 
+# -- Compiling module ChargingStation
+# 
+# Top level modules:
+# 	ChargingStation
+# End time: 21:27:43 on Dec 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Jhury/Desktop/SCHOOL\ STUFF/CpE\ -\ 3rd\ Year/HDL/FINAL\ PROJ/HDL-Final/ChargingStation {C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/Mode_Select.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:27:44 on Dec 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation" C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/Mode_Select.v 
 # -- Compiling module Mode_Select
 # 
 # Top level modules:
 # 	Mode_Select
-# End time: 12:50:34 on Dec 23,2022, Elapsed time: 0:00:00
+# End time: 21:27:44 on Dec 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Paul\ John/Downloads/ChargingStation {C:/Users/Paul John/Downloads/ChargingStation/Controller.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Jhury/Desktop/SCHOOL\ STUFF/CpE\ -\ 3rd\ Year/HDL/FINAL\ PROJ/HDL-Final/ChargingStation {C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/Controller.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 12:50:34 on Dec 23,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Paul John/Downloads/ChargingStation" C:/Users/Paul John/Downloads/ChargingStation/Controller.v 
+# Start time: 21:27:44 on Dec 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation" C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/Controller.v 
 # -- Compiling module Controller
 # 
 # Top level modules:
 # 	Controller
-# End time: 12:50:35 on Dec 23,2022, Elapsed time: 0:00:01
+# End time: 21:27:44 on Dec 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Paul\ John/Downloads/ChargingStation {C:/Users/Paul John/Downloads/ChargingStation/ComplexCounter_4Bit.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Jhury/Desktop/SCHOOL\ STUFF/CpE\ -\ 3rd\ Year/HDL/FINAL\ PROJ/HDL-Final/ChargingStation {C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/ComplexCounter_4Bit.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 12:50:35 on Dec 23,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Paul John/Downloads/ChargingStation" C:/Users/Paul John/Downloads/ChargingStation/ComplexCounter_4Bit.v 
+# Start time: 21:27:44 on Dec 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation" C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/ComplexCounter_4Bit.v 
 # -- Compiling module ComplexCounter_4Bit
 # 
 # Top level modules:
 # 	ComplexCounter_4Bit
-# End time: 12:50:35 on Dec 23,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Paul\ John/Downloads/ChargingStation {C:/Users/Paul John/Downloads/ChargingStation/Counter_Main.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 12:50:35 on Dec 23,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Paul John/Downloads/ChargingStation" C:/Users/Paul John/Downloads/ChargingStation/Counter_Main.v 
-# -- Compiling module Counter_Main
-# 
-# Top level modules:
-# 	Counter_Main
-# End time: 12:50:35 on Dec 23,2022, Elapsed time: 0:00:00
+# End time: 21:27:44 on Dec 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/Paul\ John/Downloads/ChargingStation {C:/Users/Paul John/Downloads/ChargingStation/tb_ChargingStation.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Jhury/Desktop/SCHOOL\ STUFF/CpE\ -\ 3rd\ Year/HDL/FINAL\ PROJ/HDL-Final/ChargingStation {C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/tb_ChargingStation.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 12:50:35 on Dec 23,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Paul John/Downloads/ChargingStation" C:/Users/Paul John/Downloads/ChargingStation/tb_ChargingStation.v 
+# Start time: 21:27:44 on Dec 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation" C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/tb_ChargingStation.v 
 # -- Compiling module tb_ChargingStation
 # 
 # Top level modules:
 # 	tb_ChargingStation
-# End time: 12:50:35 on Dec 23,2022, Elapsed time: 0:00:00
+# End time: 21:27:44 on Dec 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  tb_ChargingStation
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" tb_ChargingStation 
-# Start time: 12:50:35 on Dec 23,2022
+# Start time: 21:27:44 on Dec 27,2022
 # Loading work.tb_ChargingStation
-# Loading work.Counter_Main
+# Loading work.ChargingStation
 # Loading work.Mode_Select
 # Loading work.Controller
 # Loading work.ComplexCounter_4Bit
@@ -77,412 +77,258 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# Starting simulation at                    0 ns...
-# Time:   0 ns	 Clk = 0	 nReset = 0	 Enable = x	 Coin = x	 PT = 0:00	
-# Time:   5 ns	 Clk = 1	 nReset = 0	 Enable = x	 Coin = x	 PT = 0:00	
-# Time:  10 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 0:00	
-# Time:  15 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:59	
-# Time:  20 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:59	
-# Time:  25 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:58	
-# Time:  30 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:58	
-# Time:  35 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:57	
-# Time:  40 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:57	
-# Time:  45 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:56	
-# Time:  50 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:56	
-# Time:  55 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:55	
-# Time:  60 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:55	
-# Time:  65 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:54	
-# Time:  70 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:54	
-# Time:  75 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:53	
-# Time:  80 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:53	
-# Time:  85 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:52	
-# Time:  90 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:52	
-# Time:  95 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:51	
-# Time: 100 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:51	
-# Time: 105 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:50	
-# Time: 110 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:50	
-# Time: 115 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:49	
-# Time: 120 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:49	
-# Time: 125 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:48	
-# Time: 130 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:48	
-# Time: 135 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:47	
-# Time: 140 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:47	
-# Time: 145 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:46	
-# Time: 150 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:46	
-# Time: 155 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:45	
-# Time: 160 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:45	
-# Time: 165 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:44	
-# Time: 170 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:44	
-# Time: 175 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:43	
-# Time: 180 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:43	
-# Time: 185 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:42	
-# Time: 190 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:42	
-# Time: 195 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:41	
-# Time: 200 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:41	
-# Time: 205 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:40	
-# Time: 210 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:40	
-# Time: 215 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:39	
-# Time: 220 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:39	
-# Time: 225 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:38	
-# Time: 230 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:38	
-# Time: 235 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:37	
-# Time: 240 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:37	
-# Time: 245 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:36	
-# Time: 250 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:36	
-# Time: 255 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:35	
-# Time: 260 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:35	
-# Time: 265 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:34	
-# Time: 270 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:34	
-# Time: 275 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:33	
-# Time: 280 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:33	
-# Time: 285 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:32	
-# Time: 290 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:32	
-# Time: 295 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:31	
-# Time: 300 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:31	
-# Time: 305 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:30	
-# Time: 310 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:30	
-# Time: 315 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:29	
-# Time: 320 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:29	
-# Time: 325 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:28	
-# Time: 330 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:28	
-# Time: 335 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:27	
-# Time: 340 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:27	
-# Time: 345 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:26	
-# Time: 350 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:26	
-# Time: 355 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:25	
-# Time: 360 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:25	
-# Time: 365 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:24	
-# Time: 370 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:24	
-# Time: 375 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:23	
-# Time: 380 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:23	
-# Time: 385 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:22	
-# Time: 390 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:22	
-# Time: 395 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:21	
-# Time: 400 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:21	
-# Time: 405 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:20	
-# Time: 410 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:20	
-# Time: 415 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:19	
-# Time: 420 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:19	
-# Time: 425 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:18	
-# Time: 430 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:18	
-# Time: 435 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:17	
-# Time: 440 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:17	
-# Time: 445 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:16	
-# Time: 450 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:16	
-# Time: 455 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:15	
-# Time: 460 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:15	
-# Time: 465 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:14	
-# Time: 470 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:14	
-# Time: 475 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:13	
-# Time: 480 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:13	
-# Time: 485 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:12	
-# Time: 490 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:12	
-# Time: 495 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:11	
-# Time: 500 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:11	
-# Time: 505 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:10	
-# Time: 510 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:10	
-# Time: 515 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:09	
-# Time: 520 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:09	
-# Time: 525 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:08	
-# Time: 530 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:08	
-# Time: 535 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:07	
-# Time: 540 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:07	
-# Time: 545 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:06	
-# Time: 550 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:06	
-# Time: 555 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:05	
-# Time: 560 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:05	
-# Time: 565 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:04	
-# Time: 570 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:04	
-# Time: 575 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:03	
-# Time: 580 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:03	
-# Time: 585 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:02	
-# Time: 590 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:02	
-# Time: 595 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:01	
-# Time: 600 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:01	
-# Time: 605 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:00	
-# Time: 610 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 9:00	
-# Time: 615 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:59	
-# Time: 620 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:59	
-# Time: 625 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:58	
-# Time: 630 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:58	
-# Time: 635 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:57	
-# Time: 640 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:57	
-# Time: 645 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:56	
-# Time: 650 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:56	
-# Time: 655 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:55	
-# Time: 660 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:55	
-# Time: 665 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:54	
-# Time: 670 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:54	
-# Time: 675 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:53	
-# Time: 680 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:53	
-# Time: 685 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:52	
-# Time: 690 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:52	
-# Time: 695 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:51	
-# Time: 700 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:51	
-# Time: 705 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:50	
-# Time: 710 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:50	
-# Time: 715 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:49	
-# Time: 720 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:49	
-# Time: 725 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:48	
-# Time: 730 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:48	
-# Time: 735 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:47	
-# Time: 740 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:47	
-# Time: 745 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:46	
-# Time: 750 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:46	
-# Time: 755 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:45	
-# Time: 760 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:45	
-# Time: 765 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:44	
-# Time: 770 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:44	
-# Time: 775 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:43	
-# Time: 780 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:43	
-# Time: 785 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:42	
-# Time: 790 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:42	
-# Time: 795 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:41	
-# Time: 800 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:41	
-# Time: 805 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:40	
-# Time: 810 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:40	
-# Time: 815 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:39	
-# Time: 820 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:39	
-# Time: 825 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:38	
-# Time: 830 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:38	
-# Time: 835 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:37	
-# Time: 840 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:37	
-# Time: 845 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:36	
-# Time: 850 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:36	
-# Time: 855 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:35	
-# Time: 860 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:35	
-# Time: 865 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:34	
-# Time: 870 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:34	
-# Time: 875 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:33	
-# Time: 880 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:33	
-# Time: 885 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:32	
-# Time: 890 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:32	
-# Time: 895 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:31	
-# Time: 900 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:31	
-# Time: 905 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:30	
-# Time: 910 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:30	
-# Time: 915 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:29	
-# Time: 920 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:29	
-# Time: 925 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:28	
-# Time: 930 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:28	
-# Time: 935 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:27	
-# Time: 940 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:27	
-# Time: 945 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:26	
-# Time: 950 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:26	
-# Time: 955 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:25	
-# Time: 960 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:25	
-# Time: 965 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:24	
-# Time: 970 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:24	
-# Time: 975 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:23	
-# Time: 980 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:23	
-# Time: 985 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:22	
-# Time: 990 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:22	
-# Time: 995 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:21	
-# Time: 1000 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:21	
-# Time: 1005 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:20	
-# Time: 1010 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:20	
-# Time: 1015 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:19	
-# Time: 1020 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:19	
-# Time: 1025 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:18	
-# Time: 1030 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:18	
-# Time: 1035 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:17	
-# Time: 1040 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:17	
-# Time: 1045 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:16	
-# Time: 1050 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:16	
-# Time: 1055 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:15	
-# Time: 1060 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:15	
-# Time: 1065 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:14	
-# Time: 1070 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:14	
-# Time: 1075 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:13	
-# Time: 1080 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:13	
-# Time: 1085 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:12	
-# Time: 1090 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:12	
-# Time: 1095 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:11	
-# Time: 1100 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:11	
-# Time: 1105 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:10	
-# Time: 1110 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:10	
-# Time: 1115 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:09	
-# Time: 1120 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:09	
-# Time: 1125 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:08	
-# Time: 1130 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:08	
-# Time: 1135 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:07	
-# Time: 1140 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:07	
-# Time: 1145 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:06	
-# Time: 1150 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:06	
-# Time: 1155 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:05	
-# Time: 1160 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:05	
-# Time: 1165 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:04	
-# Time: 1170 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:04	
-# Time: 1175 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:03	
-# Time: 1180 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:03	
-# Time: 1185 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:02	
-# Time: 1190 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:02	
-# Time: 1195 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:01	
-# Time: 1200 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:01	
-# Time: 1205 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:00	
-# Time: 1210 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 8:00	
-# Time: 1215 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:59	
-# Time: 1220 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:59	
-# Time: 1225 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:58	
-# Time: 1230 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:58	
-# Time: 1235 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:57	
-# Time: 1240 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:57	
-# Time: 1245 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:56	
-# Time: 1250 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:56	
-# Time: 1255 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:55	
-# Time: 1260 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:55	
-# Time: 1265 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:54	
-# Time: 1270 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:54	
-# Time: 1275 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:53	
-# Time: 1280 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:53	
-# Time: 1285 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:52	
-# Time: 1290 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:52	
-# Time: 1295 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:51	
-# Time: 1300 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:51	
-# Time: 1305 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:50	
-# Time: 1310 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:50	
-# Time: 1315 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:49	
-# Time: 1320 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:49	
-# Time: 1325 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:48	
-# Time: 1330 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:48	
-# Time: 1335 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:47	
-# Time: 1340 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:47	
-# Time: 1345 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:46	
-# Time: 1350 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:46	
-# Time: 1355 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:45	
-# Time: 1360 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:45	
-# Time: 1365 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:44	
-# Time: 1370 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:44	
-# Time: 1375 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:43	
-# Time: 1380 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:43	
-# Time: 1385 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:42	
-# Time: 1390 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:42	
-# Time: 1395 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:41	
-# Time: 1400 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:41	
-# Time: 1405 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:40	
-# Time: 1410 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:40	
-# Time: 1415 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:39	
-# Time: 1420 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:39	
-# Time: 1425 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:38	
-# Time: 1430 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:38	
-# Time: 1435 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:37	
-# Time: 1440 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:37	
-# Time: 1445 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:36	
-# Time: 1450 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:36	
-# Time: 1455 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:35	
-# Time: 1460 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:35	
-# Time: 1465 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:34	
-# Time: 1470 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:34	
-# Time: 1475 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:33	
-# Time: 1480 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:33	
-# Time: 1485 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:32	
-# Time: 1490 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:32	
-# Time: 1495 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:31	
-# Time: 1500 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:31	
-# Time: 1505 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:30	
-# Time: 1510 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:30	
-# Time: 1515 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:29	
-# Time: 1520 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:29	
-# Time: 1525 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:28	
-# Time: 1530 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:28	
-# Time: 1535 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:27	
-# Time: 1540 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:27	
-# Time: 1545 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:26	
-# Time: 1550 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:26	
-# Time: 1555 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:25	
-# Time: 1560 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:25	
-# Time: 1565 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:24	
-# Time: 1570 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:24	
-# Time: 1575 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:23	
-# Time: 1580 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:23	
-# Time: 1585 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:22	
-# Time: 1590 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:22	
-# Time: 1595 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:21	
-# Time: 1600 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:21	
-# Time: 1605 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:20	
-# Time: 1610 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:20	
-# Time: 1615 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:19	
-# Time: 1620 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:19	
-# Time: 1625 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:18	
-# Time: 1630 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:18	
-# Time: 1635 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:17	
-# Time: 1640 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:17	
-# Time: 1645 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:16	
-# Time: 1650 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:16	
-# Time: 1655 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:15	
-# Time: 1660 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:15	
-# Time: 1665 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:14	
-# Time: 1670 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:14	
-# Time: 1675 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:13	
-# Time: 1680 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:13	
-# Time: 1685 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:12	
-# Time: 1690 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:12	
-# Time: 1695 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:11	
-# Time: 1700 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:11	
-# Time: 1705 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:10	
-# Time: 1710 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:10	
-# Time: 1715 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:09	
-# Time: 1720 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:09	
-# Time: 1725 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:08	
-# Time: 1730 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:08	
-# Time: 1735 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:07	
-# Time: 1740 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:07	
-# Time: 1745 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:06	
-# Time: 1750 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:06	
-# Time: 1755 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:05	
-# Time: 1760 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:05	
-# Time: 1765 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:04	
-# Time: 1770 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:04	
-# Time: 1775 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:03	
-# Time: 1780 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:03	
-# Time: 1785 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:02	
-# Time: 1790 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:02	
-# Time: 1795 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:01	
-# Time: 1800 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:01	
-# Time: 1805 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:00	
-# Time: 1810 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 7:00	
-# Time: 1815 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:59	
-# Time: 1820 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:59	
-# Time: 1825 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:58	
-# Time: 1830 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:58	
-# Time: 1835 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:57	
-# Time: 1840 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:57	
-# Time: 1845 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:56	
-# Time: 1850 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:56	
-# Time: 1855 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:55	
-# Time: 1860 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:55	
-# Time: 1865 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:54	
-# Time: 1870 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:54	
-# Time: 1875 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:53	
-# Time: 1880 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:53	
-# Time: 1885 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:52	
-# Time: 1890 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:52	
-# Time: 1895 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:51	
-# Time: 1900 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:51	
-# Time: 1905 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:50	
-# Time: 1910 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:50	
-# Time: 1915 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:49	
-# Time: 1920 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:49	
-# Time: 1925 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:48	
-# Time: 1930 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:48	
-# Time: 1935 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:47	
-# Time: 1940 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:47	
-# Time: 1945 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:46	
-# Time: 1950 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:46	
-# Time: 1955 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:45	
-# Time: 1960 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:45	
-# Time: 1965 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:44	
-# Time: 1970 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:44	
-# Time: 1975 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:43	
-# Time: 1980 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:43	
-# Time: 1985 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:42	
-# Time: 1990 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:42	
-# Time: 1995 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:41	
-# Time: 2000 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:41	
-# Time: 2005 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 5	 PT = 6:40	
-# Finished simulation at                 2010 ns.
-# ** Note: $stop    : C:/Users/Paul John/Downloads/ChargingStation/tb_ChargingStation.v(23)
-#    Time: 2010 ns  Iteration: 0  Instance: /tb_ChargingStation
-# Break in Module tb_ChargingStation at C:/Users/Paul John/Downloads/ChargingStation/tb_ChargingStation.v line 23
-# End time: 12:50:49 on Dec 23,2022, Elapsed time: 0:00:14
+# Charging Phone at                    0 ns...
+# Time:   0 ns	 Clk = 0	 nReset = 0	 Enable = x	 Coin = x	 Time Remaining = 0:00	
+# Time:   5 ns	 Clk = 1	 nReset = 0	 Enable = x	 Coin = x	 Time Remaining = 0:00	
+# Time:  10 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:00	
+# Time:  15 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:59	
+# Time:  20 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:59	
+# Time:  25 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:58	
+# Time:  30 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:58	
+# Time:  35 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:57	
+# Time:  40 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:57	
+# Time:  45 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:56	
+# Time:  50 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:56	
+# Time:  55 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:55	
+# Time:  60 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:55	
+# Time:  65 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:54	
+# Time:  70 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:54	
+# Time:  75 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:53	
+# Time:  80 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:53	
+# Time:  85 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:52	
+# Time:  90 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:52	
+# Time:  95 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:51	
+# Time: 100 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:51	
+# Time: 105 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:50	
+# Time: 110 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:50	
+# Time: 115 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:49	
+# Time: 120 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:49	
+# Time: 125 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:48	
+# Time: 130 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:48	
+# Time: 135 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:47	
+# Time: 140 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:47	
+# Time: 145 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:46	
+# Time: 150 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:46	
+# Time: 155 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:45	
+# Time: 160 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:45	
+# Time: 165 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:44	
+# Time: 170 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:44	
+# Time: 175 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:43	
+# Time: 180 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:43	
+# Time: 185 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:42	
+# Time: 190 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:42	
+# Time: 195 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:41	
+# Time: 200 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:41	
+# Time: 205 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:40	
+# Time: 210 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:40	
+# Time: 215 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:39	
+# Time: 220 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:39	
+# Time: 225 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:38	
+# Time: 230 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:38	
+# Time: 235 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:37	
+# Time: 240 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:37	
+# Time: 245 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:36	
+# Time: 250 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:36	
+# Time: 255 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:35	
+# Time: 260 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:35	
+# Time: 265 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:34	
+# Time: 270 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:34	
+# Time: 275 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:33	
+# Time: 280 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:33	
+# Time: 285 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:32	
+# Time: 290 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:32	
+# Time: 295 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:31	
+# Time: 300 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:31	
+# Time: 305 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:30	
+# Time: 310 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:30	
+# Time: 315 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:29	
+# Time: 320 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:29	
+# Time: 325 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:28	
+# Time: 330 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:28	
+# Time: 335 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:27	
+# Time: 340 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:27	
+# Time: 345 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:26	
+# Time: 350 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:26	
+# Time: 355 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:25	
+# Time: 360 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:25	
+# Time: 365 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:24	
+# Time: 370 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:24	
+# Time: 375 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:23	
+# Time: 380 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:23	
+# Time: 385 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:22	
+# Time: 390 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:22	
+# Time: 395 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:21	
+# Time: 400 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:21	
+# Time: 405 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:20	
+# Time: 410 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:20	
+# Time: 415 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:19	
+# Time: 420 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:19	
+# Time: 425 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:18	
+# Time: 430 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:18	
+# Time: 435 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:17	
+# Time: 440 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:17	
+# Time: 445 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:16	
+# Time: 450 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:16	
+# Time: 455 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:15	
+# Time: 460 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:15	
+# Time: 465 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:14	
+# Time: 470 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:14	
+# Time: 475 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:13	
+# Time: 480 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:13	
+# Time: 485 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:12	
+# Time: 490 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:12	
+# Time: 495 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:11	
+# Time: 500 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:11	
+# Time: 505 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:10	
+# 
+# INSERTING COIN AGAIN at                  510 ns...
+# 
+# Time: 510 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:10	
+# Time: 515 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:09	
+# Time: 520 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:09	
+# Time: 525 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:08	
+# Time: 530 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:08	
+# Time: 535 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:07	
+# Time: 540 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:07	
+# Time: 545 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:06	
+# Time: 550 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:06	
+# Time: 555 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:05	
+# Time: 560 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:05	
+# Time: 565 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:04	
+# Time: 570 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:04	
+# Time: 575 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:03	
+# Time: 580 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:03	
+# Time: 585 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:02	
+# Time: 590 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:02	
+# Time: 595 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:01	
+# Time: 600 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:01	
+# Time: 605 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:00	
+# 
+# REJECTED at                  610 ns...
+# 
+# Time: 610 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 1:00	
+# Time: 615 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:59	
+# Time: 620 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:59	
+# Time: 625 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:58	
+# Time: 630 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:58	
+# Time: 635 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:57	
+# Time: 640 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:57	
+# Time: 645 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:56	
+# Time: 650 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:56	
+# Time: 655 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:55	
+# Time: 660 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:55	
+# Time: 665 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:54	
+# Time: 670 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:54	
+# Time: 675 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:53	
+# Time: 680 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:53	
+# Time: 685 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:52	
+# Time: 690 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:52	
+# Time: 695 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:51	
+# Time: 700 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:51	
+# Time: 705 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:50	
+# Time: 710 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:50	
+# Time: 715 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:49	
+# Time: 720 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:49	
+# Time: 725 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:48	
+# Time: 730 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:48	
+# Time: 735 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:47	
+# Time: 740 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:47	
+# Time: 745 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:46	
+# Time: 750 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:46	
+# Time: 755 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:45	
+# Time: 760 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:45	
+# Time: 765 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:44	
+# Time: 770 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:44	
+# Time: 775 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:43	
+# Time: 780 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:43	
+# Time: 785 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:42	
+# Time: 790 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:42	
+# Time: 795 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:41	
+# Time: 800 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:41	
+# Time: 805 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:40	
+# Time: 810 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:40	
+# Time: 815 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:39	
+# Time: 820 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:39	
+# Time: 825 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:38	
+# Time: 830 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:38	
+# Time: 835 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:37	
+# Time: 840 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:37	
+# Time: 845 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:36	
+# Time: 850 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:36	
+# Time: 855 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:35	
+# Time: 860 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:35	
+# Time: 865 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:34	
+# Time: 870 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:34	
+# Time: 875 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:33	
+# Time: 880 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:33	
+# Time: 885 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:32	
+# Time: 890 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:32	
+# Time: 895 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:31	
+# Time: 900 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:31	
+# Time: 905 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:30	
+# Time: 910 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:30	
+# Time: 915 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:29	
+# Time: 920 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:29	
+# Time: 925 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:28	
+# Time: 930 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:28	
+# Time: 935 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:27	
+# Time: 940 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:27	
+# Time: 945 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:26	
+# Time: 950 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:26	
+# Time: 955 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:25	
+# Time: 960 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:25	
+# Time: 965 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:24	
+# Time: 970 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:24	
+# Time: 975 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:23	
+# Time: 980 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:23	
+# Time: 985 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:22	
+# Time: 990 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:22	
+# Time: 995 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:21	
+# Time: 1000 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:21	
+# Time: 1005 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:20	
+# Time: 1010 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:20	
+# Time: 1015 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:19	
+# Time: 1020 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:19	
+# Time: 1025 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:18	
+# Time: 1030 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:18	
+# Time: 1035 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:17	
+# Time: 1040 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:17	
+# Time: 1045 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:16	
+# Time: 1050 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:16	
+# Time: 1055 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:15	
+# Time: 1060 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:15	
+# Time: 1065 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:14	
+# Time: 1070 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:14	
+# Time: 1075 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:13	
+# Time: 1080 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:13	
+# Time: 1085 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:12	
+# Time: 1090 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:12	
+# Time: 1095 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:11	
+# Time: 1100 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:11	
+# Time: 1105 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:10	
+# Time: 1110 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:10	
+# Time: 1115 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:09	
+# Time: 1120 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:09	
+# Time: 1125 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:08	
+# Time: 1130 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:08	
+# Time: 1135 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:07	
+# Time: 1140 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:07	
+# Time: 1145 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:06	
+# Time: 1150 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:06	
+# Time: 1155 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:05	
+# Time: 1160 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:05	
+# Time: 1165 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:04	
+# Time: 1170 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:04	
+# Time: 1175 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:03	
+# Time: 1180 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:03	
+# Time: 1185 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:02	
+# Time: 1190 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:02	
+# Time: 1195 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:01	
+# Time: 1200 ns	 Clk = 0	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:01	
+# Time: 1205 ns	 Clk = 1	 nReset = 1	 Enable = 1	 Coin = 1	 Time Remaining = 0:00	
+# Finished Charging Phone. Insert Coin Again at                 1210 ns.
+# ** Note: $stop    : C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/tb_ChargingStation.v(32)
+#    Time: 1210 ns  Iteration: 0  Instance: /tb_ChargingStation
+# Break in Module tb_ChargingStation at C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/tb_ChargingStation.v line 32
+# End time: 22:25:24 on Dec 27,2022, Elapsed time: 0:57:40
 # Errors: 0, Warnings: 0

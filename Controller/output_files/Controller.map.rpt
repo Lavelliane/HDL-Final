@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Controller
-Wed Dec 21 15:51:25 2022
+Tue Dec 27 20:35:47 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -13,11 +13,11 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. User-Specified and Inferred Latches
-  9. General Register Statistics
- 10. Post-Synthesis Netlist Statistics for Top Partition
- 11. Elapsed Time Per Partition
- 12. Analysis & Synthesis Messages
+  8. General Register Statistics
+  9. Post-Synthesis Netlist Statistics for Top Partition
+ 10. Elapsed Time Per Partition
+ 11. Analysis & Synthesis Messages
+ 12. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -44,13 +44,13 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Dec 21 15:51:25 2022       ;
+; Analysis & Synthesis Status        ; Successful - Tue Dec 27 20:35:47 2022       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; Controller                                  ;
 ; Top-level Entity Name              ; Controller                                  ;
 ; Family                             ; MAX 10                                      ;
-; Total logic elements               ; 9                                           ;
-;     Total combinational functions  ; 9                                           ;
+; Total logic elements               ; 6                                           ;
+;     Total combinational functions  ; 6                                           ;
 ;     Dedicated logic registers      ; 0                                           ;
 ; Total registers                    ; 0                                           ;
 ; Total pins                         ; 22                                          ;
@@ -154,8 +154,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 8           ;
-; Maximum allowed            ; 4           ;
+; Number detected on machine ; 6           ;
+; Maximum allowed            ; 6           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
 ; Maximum used               ; 1           ;
@@ -165,13 +165,13 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                          ;
-+----------------------------------+-----------------+------------------------+---------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                            ; Library ;
-+----------------------------------+-----------------+------------------------+---------------------------------------------------------+---------+
-; Controller.v                     ; yes             ; User Verilog HDL File  ; C:/Users/User/Desktop/HDL Final/Controller/Controller.v ;         ;
-+----------------------------------+-----------------+------------------------+---------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                      ;
++----------------------------------+-----------------+------------------------+-----------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                                        ; Library ;
++----------------------------------+-----------------+------------------------+-----------------------------------------------------------------------------------------------------+---------+
+; Controller.v                     ; yes             ; User Verilog HDL File  ; C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Controller/Controller.v ;         ;
++----------------------------------+-----------------+------------------------+-----------------------------------------------------------------------------------------------------+---------+
 
 
 +--------------------------------------------------------+
@@ -179,16 +179,16 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+----------+
 ; Resource                                    ; Usage    ;
 +---------------------------------------------+----------+
-; Estimated Total logic elements              ; 9        ;
+; Estimated Total logic elements              ; 6        ;
 ;                                             ;          ;
-; Total combinational functions               ; 9        ;
+; Total combinational functions               ; 6        ;
 ; Logic element usage by number of LUT inputs ;          ;
-;     -- 4 input functions                    ; 4        ;
-;     -- 3 input functions                    ; 5        ;
+;     -- 4 input functions                    ; 5        ;
+;     -- 3 input functions                    ; 1        ;
 ;     -- <=2 input functions                  ; 0        ;
 ;                                             ;          ;
 ; Logic elements by mode                      ;          ;
-;     -- normal mode                          ; 9        ;
+;     -- normal mode                          ; 6        ;
 ;     -- arithmetic mode                      ; 0        ;
 ;                                             ;          ;
 ; Total registers                             ; 0        ;
@@ -200,9 +200,9 @@ https://fpgasoftware.intel.com/eula.
 ; Embedded Multiplier 9-bit elements          ; 0        ;
 ;                                             ;          ;
 ; Maximum fan-out node                        ; Equal0~3 ;
-; Maximum fan-out                             ; 4        ;
-; Total fan-out                               ; 57       ;
-; Average fan-out                             ; 1.08     ;
+; Maximum fan-out                             ; 3        ;
+; Total fan-out                               ; 49       ;
+; Average fan-out                             ; 0.98     ;
 +---------------------------------------------+----------+
 
 
@@ -211,23 +211,9 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name ; Entity Name ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------+--------------+
-; |Controller                ; 9 (9)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 22   ; 0            ; 0          ; |Controller         ; Controller  ; work         ;
+; |Controller                ; 6 (6)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 22   ; 0            ; 0          ; |Controller         ; Controller  ; work         ;
 +----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-+---------------------------------------------------------------------------------------------------+
-; User-Specified and Inferred Latches                                                               ;
-+----------------------------------------------------+---------------------+------------------------+
-; Latch Name                                         ; Latch Enable Signal ; Free of Timing Hazards ;
-+----------------------------------------------------+---------------------+------------------------+
-; CounterInput[0]$latch                              ; GND                 ; yes                    ;
-; CounterInput[2]$latch                              ; WideNor0            ; yes                    ;
-; CounterEnable$latch                                ; GND                 ; yes                    ;
-; isRunning$latch                                    ; GND                 ; yes                    ;
-; Number of user-specified and inferred latches = 4  ;                     ;                        ;
-+----------------------------------------------------+---------------------+------------------------+
-Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
 +------------------------------------------------------+
@@ -251,14 +237,15 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; boundary_port         ; 22                          ;
-; cycloneiii_lcell_comb ; 10                          ;
-;     normal            ; 10                          ;
+; cycloneiii_lcell_comb ; 8                           ;
+;     normal            ; 8                           ;
 ;         0 data inputs ; 1                           ;
-;         3 data inputs ; 5                           ;
-;         4 data inputs ; 4                           ;
+;         1 data inputs ; 1                           ;
+;         3 data inputs ; 1                           ;
+;         4 data inputs ; 5                           ;
 ;                       ;                             ;
 ; Max LUT depth         ; 3.00                        ;
-; Average LUT depth     ; 2.43                        ;
+; Average LUT depth     ; 2.63                        ;
 +-----------------------+-----------------------------+
 
 
@@ -277,37 +264,36 @@ Note: All latches listed above may not be present at the end of synthesis due to
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Wed Dec 21 15:51:15 2022
+    Info: Processing started: Tue Dec 27 20:35:38 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Controller -c Controller
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file controller.v
-    Info (12023): Found entity 1: Controller File: C:/Users/User/Desktop/HDL Final/Controller/Controller.v Line: 1
+    Info (12023): Found entity 1: Controller File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Controller/Controller.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_controller.v
+    Info (12023): Found entity 1: tb_Controller File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Controller/tb_Controller.v Line: 2
 Info (12127): Elaborating entity "Controller" for the top level hierarchy
-Warning (10270): Verilog HDL Case Statement warning at Controller.v(18): incomplete case statement has no default case item File: C:/Users/User/Desktop/HDL Final/Controller/Controller.v Line: 18
-Warning (10240): Verilog HDL Always Construct warning at Controller.v(10): inferring latch(es) for variable "CounterEnable", which holds its previous value in one or more paths through the always construct File: C:/Users/User/Desktop/HDL Final/Controller/Controller.v Line: 10
-Warning (10240): Verilog HDL Always Construct warning at Controller.v(10): inferring latch(es) for variable "isRunning", which holds its previous value in one or more paths through the always construct File: C:/Users/User/Desktop/HDL Final/Controller/Controller.v Line: 10
-Warning (10240): Verilog HDL Always Construct warning at Controller.v(10): inferring latch(es) for variable "CounterInput", which holds its previous value in one or more paths through the always construct File: C:/Users/User/Desktop/HDL Final/Controller/Controller.v Line: 10
-Info (10041): Inferred latch for "CounterInput[0]" at Controller.v(18) File: C:/Users/User/Desktop/HDL Final/Controller/Controller.v Line: 18
-Info (10041): Inferred latch for "CounterInput[1]" at Controller.v(18) File: C:/Users/User/Desktop/HDL Final/Controller/Controller.v Line: 18
-Info (10041): Inferred latch for "CounterInput[2]" at Controller.v(18) File: C:/Users/User/Desktop/HDL Final/Controller/Controller.v Line: 18
-Info (10041): Inferred latch for "CounterInput[3]" at Controller.v(18) File: C:/Users/User/Desktop/HDL Final/Controller/Controller.v Line: 18
-Info (10041): Inferred latch for "isRunning" at Controller.v(18) File: C:/Users/User/Desktop/HDL Final/Controller/Controller.v Line: 18
-Info (10041): Inferred latch for "CounterEnable" at Controller.v(18) File: C:/Users/User/Desktop/HDL Final/Controller/Controller.v Line: 18
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "CounterInput[1]" is stuck at GND File: C:/Users/User/Desktop/HDL Final/Controller/Controller.v Line: 18
-    Warning (13410): Pin "CounterInput[3]" is stuck at GND File: C:/Users/User/Desktop/HDL Final/Controller/Controller.v Line: 18
+    Warning (13410): Pin "CounterInput[1]" is stuck at GND File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Controller/Controller.v Line: 5
+    Warning (13410): Pin "CounterInput[3]" is stuck at GND File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Controller/Controller.v Line: 5
 Info (286030): Timing-Driven Synthesis is running
+Info (144001): Generated suppressed messages file C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Controller/output_files/Controller.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 31 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 28 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 16 input pins
     Info (21059): Implemented 6 output pins
-    Info (21061): Implemented 9 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 8 warnings
-    Info: Peak virtual memory: 4753 megabytes
-    Info: Processing ended: Wed Dec 21 15:51:25 2022
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:24
+    Info (21061): Implemented 6 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 4756 megabytes
+    Info: Processing ended: Tue Dec 27 20:35:47 2022
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:17
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Controller/output_files/Controller.map.smsg.
 
 

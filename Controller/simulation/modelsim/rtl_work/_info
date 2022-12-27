@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Controller/simulation/modelsim
+vController
+!s110 1672144939
+!i10b 1
+!s100 RoU8Z>6B6a[QWiJ24GL=H3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I7dL@:feRdJ`9dG2Z<Pc5P0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1671623521
+8C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Controller/Controller.v
+FC:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Controller/Controller.v
+!i122 0
+L0 1 39
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1672144939.000000
+!s107 C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Controller/Controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Controller|C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Controller/Controller.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Controller}
+Z6 tCvgOpt 0
+n@controller
+vtb_Controller
+!s110 1672144940
+!i10b 1
+!s100 @>T_`PDCC6I]iDFKWfObg1
+R1
+I`=fP7fjDb<oOGVeLc[84L3
+R2
+R0
+w1672144482
+8C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Controller/tb_Controller.v
+FC:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Controller/tb_Controller.v
+!i122 1
+L0 2 27
+R3
+r1
+!s85 0
+31
+!s108 1672144940.000000
+!s107 C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Controller/tb_Controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Controller|C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/Controller/tb_Controller.v|
+!i113 1
+R4
+R5
+R6
+ntb_@controller

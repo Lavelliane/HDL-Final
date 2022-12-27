@@ -1,4 +1,4 @@
-|Counter_Main
+|ChargingStation
 Clk => Clk.IN3
 nReset => nReset.IN5
 ModeEnable => ModeEnable.IN1
@@ -19,7 +19,7 @@ PresentTime[10] << PresentTime[10].DB_MAX_OUTPUT_PORT_TYPE
 PresentTime[11] << PresentTime[11].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Counter_Main|Mode_Select:getMode
+|ChargingStation|Mode_Select:getMode
 Coin[0] => Equal0.IN0
 Coin[0] => Equal1.IN1
 Coin[1] => Equal0.IN2
@@ -35,7 +35,7 @@ Mode[2] <= Mode[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
 Mode[3] <= <GND>
 
 
-|Counter_Main|Controller:controller
+|ChargingStation|Controller:controller
 Mode[0] => Equal1.IN7
 Mode[0] => Equal2.IN7
 Mode[1] => Equal1.IN6
@@ -60,7 +60,7 @@ CounterEnable <= CounterEnable$latch.DB_MAX_OUTPUT_PORT_TYPE
 nReset => CounterEnable$latch.ACLR
 
 
-|Counter_Main|ComplexCounter_4Bit:C3
+|ChargingStation|ComplexCounter_4Bit:C3
 Clk => cState~1.DATAIN
 nReset => cState.OUTPUTSELECT
 nReset => cState.OUTPUTSELECT
@@ -100,7 +100,7 @@ Count[2] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
 Count[3] <= Count.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Counter_Main|ComplexCounter_4Bit:C2
+|ChargingStation|ComplexCounter_4Bit:C2
 Clk => cState~1.DATAIN
 nReset => cState.OUTPUTSELECT
 nReset => cState.OUTPUTSELECT
@@ -140,7 +140,7 @@ Count[2] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
 Count[3] <= Count.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Counter_Main|ComplexCounter_4Bit:C1
+|ChargingStation|ComplexCounter_4Bit:C1
 Clk => cState~1.DATAIN
 nReset => cState.OUTPUTSELECT
 nReset => cState.OUTPUTSELECT

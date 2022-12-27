@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ChargingStation
-Fri Dec 23 13:17:53 2022
+Tue Dec 27 21:01:13 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -13,9 +13,9 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. State Machine - |Counter_Main|ComplexCounter_4Bit:C1|cState
-  9. State Machine - |Counter_Main|ComplexCounter_4Bit:C2|cState
- 10. State Machine - |Counter_Main|ComplexCounter_4Bit:C3|cState
+  8. State Machine - |ChargingStation|ComplexCounter_4Bit:C1|cState
+  9. State Machine - |ChargingStation|ComplexCounter_4Bit:C2|cState
+ 10. State Machine - |ChargingStation|ComplexCounter_4Bit:C3|cState
  11. User-Specified and Inferred Latches
  12. Registers Removed During Synthesis
  13. General Register Statistics
@@ -53,10 +53,10 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Dec 23 13:17:53 2022       ;
+; Analysis & Synthesis Status        ; Successful - Tue Dec 27 21:01:13 2022       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; ChargingStation                             ;
-; Top-level Entity Name              ; Counter_Main                                ;
+; Top-level Entity Name              ; ChargingStation                             ;
 ; Family                             ; MAX 10                                      ;
 ; Total logic elements               ; 60                                          ;
 ;     Total combinational functions  ; 60                                          ;
@@ -78,7 +78,7 @@ https://fpgasoftware.intel.com/eula.
 ; Option                                                           ; Setting            ; Default Value      ;
 +------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                           ; 10M02DCU324A6G     ;                    ;
-; Top-level entity name                                            ; Counter_Main       ; ChargingStation    ;
+; Top-level entity name                                            ; ChargingStation    ; ChargingStation    ;
 ; Family name                                                      ; MAX 10             ; Cyclone V          ;
 ; Use smart compilation                                            ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
@@ -171,8 +171,7 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.0%      ;
-;     Processors 3-6         ;   0.0%      ;
+;     Processors 2-6         ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -181,10 +180,10 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------------------------------------------+---------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                                                      ; Library ;
 +----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------------------------------------------+---------+
+; ChargingStation.v                ; yes             ; User Verilog HDL File  ; C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/ChargingStation.v     ;         ;
 ; Mode_Select.v                    ; yes             ; User Verilog HDL File  ; C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/Mode_Select.v         ;         ;
 ; Controller.v                     ; yes             ; User Verilog HDL File  ; C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/Controller.v          ;         ;
 ; ComplexCounter_4Bit.v            ; yes             ; User Verilog HDL File  ; C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/ComplexCounter_4Bit.v ;         ;
-; Counter_Main.v                   ; yes             ; User Verilog HDL File  ; C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/Counter_Main.v        ;         ;
 +----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------------------------------------------+---------+
 
 
@@ -220,24 +219,24 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+--------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                          ;
-+-----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+--------------------------------------+---------------------+--------------+
-; Compilation Hierarchy Node  ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                  ; Entity Name         ; Library Name ;
-+-----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+--------------------------------------+---------------------+--------------+
-; |Counter_Main               ; 60 (18)             ; 26 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 18   ; 0            ; 0          ; |Counter_Main                        ; Counter_Main        ; work         ;
-;    |ComplexCounter_4Bit:C1| ; 14 (14)             ; 10 (10)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |Counter_Main|ComplexCounter_4Bit:C1 ; ComplexCounter_4Bit ; work         ;
-;    |ComplexCounter_4Bit:C2| ; 9 (9)               ; 6 (6)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |Counter_Main|ComplexCounter_4Bit:C2 ; ComplexCounter_4Bit ; work         ;
-;    |ComplexCounter_4Bit:C3| ; 13 (13)             ; 10 (10)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |Counter_Main|ComplexCounter_4Bit:C3 ; ComplexCounter_4Bit ; work         ;
-;    |Controller:controller|  ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |Counter_Main|Controller:controller  ; Controller          ; work         ;
-;    |Mode_Select:getMode|    ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |Counter_Main|Mode_Select:getMode    ; Mode_Select         ; work         ;
-+-----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+--------------------------------------+---------------------+--------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                             ;
++-----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------------------+---------------------+--------------+
+; Compilation Hierarchy Node  ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                     ; Entity Name         ; Library Name ;
++-----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------------------+---------------------+--------------+
+; |ChargingStation            ; 60 (18)             ; 26 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 18   ; 0            ; 0          ; |ChargingStation                        ; ChargingStation     ; work         ;
+;    |ComplexCounter_4Bit:C1| ; 14 (14)             ; 10 (10)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ChargingStation|ComplexCounter_4Bit:C1 ; ComplexCounter_4Bit ; work         ;
+;    |ComplexCounter_4Bit:C2| ; 9 (9)               ; 6 (6)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ChargingStation|ComplexCounter_4Bit:C2 ; ComplexCounter_4Bit ; work         ;
+;    |ComplexCounter_4Bit:C3| ; 13 (13)             ; 10 (10)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ChargingStation|ComplexCounter_4Bit:C3 ; ComplexCounter_4Bit ; work         ;
+;    |Controller:controller|  ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ChargingStation|Controller:controller  ; Controller          ; work         ;
+;    |Mode_Select:getMode|    ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ChargingStation|Mode_Select:getMode    ; Mode_Select         ; work         ;
++-----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
 Encoding Type:  One-Hot
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
-; State Machine - |Counter_Main|ComplexCounter_4Bit:C1|cState                                                                                             ;
+; State Machine - |ChargingStation|ComplexCounter_4Bit:C1|cState                                                                                          ;
 +-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 ; Name        ; cState.1001 ; cState.1000 ; cState.0111 ; cState.0110 ; cState.0101 ; cState.0100 ; cState.0011 ; cState.0010 ; cState.0001 ; cState.0000 ;
 +-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
@@ -256,7 +255,7 @@ Encoding Type:  One-Hot
 
 Encoding Type:  One-Hot
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
-; State Machine - |Counter_Main|ComplexCounter_4Bit:C2|cState                                                                                             ;
+; State Machine - |ChargingStation|ComplexCounter_4Bit:C2|cState                                                                                          ;
 +-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 ; Name        ; cState.1001 ; cState.1000 ; cState.0111 ; cState.0110 ; cState.0101 ; cState.0100 ; cState.0011 ; cState.0010 ; cState.0001 ; cState.0000 ;
 +-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
@@ -275,7 +274,7 @@ Encoding Type:  One-Hot
 
 Encoding Type:  One-Hot
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
-; State Machine - |Counter_Main|ComplexCounter_4Bit:C3|cState                                                                                             ;
+; State Machine - |ChargingStation|ComplexCounter_4Bit:C3|cState                                                                                          ;
 +-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 ; Name        ; cState.1001 ; cState.1000 ; cState.0111 ; cState.0110 ; cState.0101 ; cState.0100 ; cState.0011 ; cState.0010 ; cState.0001 ; cState.0000 ;
 +-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
@@ -345,16 +344,16 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                            ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                  ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------+
-; 3:1                ; 10 bits   ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; No         ; |Counter_Main|ComplexCounter_4Bit:C1|cState ;
-; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; No         ; |Counter_Main|ComplexCounter_4Bit:C2|cState ;
-; 3:1                ; 6 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |Counter_Main|ComplexCounter_4Bit:C2|cState ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |Counter_Main|ComplexCounter_4Bit:C3|cState ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                               ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                     ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------+
+; 3:1                ; 10 bits   ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; No         ; |ChargingStation|ComplexCounter_4Bit:C1|cState ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; No         ; |ChargingStation|ComplexCounter_4Bit:C2|cState ;
+; 3:1                ; 6 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |ChargingStation|ComplexCounter_4Bit:C2|cState ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |ChargingStation|ComplexCounter_4Bit:C3|cState ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------+
 
 
 +----------------------------------------------------+
@@ -427,12 +426,12 @@ Note: All latches listed above may not be present at the end of synthesis due to
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Fri Dec 23 13:17:44 2022
+    Info: Processing started: Tue Dec 27 21:01:05 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ChargingStation -c ChargingStation
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file chargingstation.v
-    Info (12023): Found entity 1: ChargingStation File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/ChargingStation.v Line: 1
+    Info (12023): Found entity 1: ChargingStation File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/ChargingStation.v Line: 5
 Info (12021): Found 1 design units, including 1 entities, in source file mode_select.v
     Info (12023): Found entity 1: Mode_Select File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/Mode_Select.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file controller.v
@@ -445,21 +444,21 @@ Info (12021): Found 1 design units, including 1 entities, in source file tb_char
     Info (12023): Found entity 1: tb_ChargingStation File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/tb_ChargingStation.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file tb_counter.v
     Info (12023): Found entity 1: tb_Counter File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/tb_Counter.v Line: 2
-Info (12127): Elaborating entity "Counter_Main" for the top level hierarchy
-Info (12128): Elaborating entity "Mode_Select" for hierarchy "Mode_Select:getMode" File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/Counter_Main.v Line: 15
+Info (12127): Elaborating entity "ChargingStation" for the top level hierarchy
+Info (12128): Elaborating entity "Mode_Select" for hierarchy "Mode_Select:getMode" File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/ChargingStation.v Line: 15
 Warning (10240): Verilog HDL Always Construct warning at Mode_Select.v(10): inferring latch(es) for variable "Mode", which holds its previous value in one or more paths through the always construct File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/Mode_Select.v Line: 10
 Info (10041): Inferred latch for "Mode[0]" at Mode_Select.v(16) File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/Mode_Select.v Line: 16
 Info (10041): Inferred latch for "Mode[1]" at Mode_Select.v(16) File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/Mode_Select.v Line: 16
 Info (10041): Inferred latch for "Mode[2]" at Mode_Select.v(16) File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/Mode_Select.v Line: 16
 Info (10041): Inferred latch for "Mode[3]" at Mode_Select.v(16) File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/Mode_Select.v Line: 16
-Info (12128): Elaborating entity "Controller" for hierarchy "Controller:controller" File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/Counter_Main.v Line: 16
+Info (12128): Elaborating entity "Controller" for hierarchy "Controller:controller" File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/ChargingStation.v Line: 16
 Warning (10240): Verilog HDL Always Construct warning at Controller.v(10): inferring latch(es) for variable "CounterEnable", which holds its previous value in one or more paths through the always construct File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/Controller.v Line: 10
 Info (10041): Inferred latch for "CounterEnable" at Controller.v(14) File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/Controller.v Line: 14
-Info (12128): Elaborating entity "ComplexCounter_4Bit" for hierarchy "ComplexCounter_4Bit:C3" File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/Counter_Main.v Line: 17
+Info (12128): Elaborating entity "ComplexCounter_4Bit" for hierarchy "ComplexCounter_4Bit:C3" File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/ChargingStation.v Line: 17
 Info (10264): Verilog HDL Case Statement information at ComplexCounter_4Bit.v(31): all case item expressions in this case statement are onehot File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/ComplexCounter_4Bit.v Line: 31
 Info (10264): Verilog HDL Case Statement information at ComplexCounter_4Bit.v(46): all case item expressions in this case statement are onehot File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/ComplexCounter_4Bit.v Line: 46
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "PresentTime[7]" is stuck at GND File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/Counter_Main.v Line: 8
+    Warning (13410): Pin "PresentTime[7]" is stuck at GND File: C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/ChargingStation.v Line: 8
 Info (286030): Timing-Driven Synthesis is running
 Info (17049): 12 registers lost all their fanouts during netlist optimizations.
 Info (144001): Generated suppressed messages file C:/Users/Jhury/Desktop/SCHOOL STUFF/CpE - 3rd Year/HDL/FINAL PROJ/HDL-Final/ChargingStation/output_files/ChargingStation.map.smsg
@@ -470,10 +469,10 @@ Info (21057): Implemented 78 device resources after synthesis - the final resour
     Info (21059): Implemented 12 output pins
     Info (21061): Implemented 60 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 4775 megabytes
-    Info: Processing ended: Fri Dec 23 13:17:53 2022
-    Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:17
+    Info: Peak virtual memory: 4768 megabytes
+    Info: Processing ended: Tue Dec 27 21:01:13 2022
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:18
 
 
 +------------------------------------------+

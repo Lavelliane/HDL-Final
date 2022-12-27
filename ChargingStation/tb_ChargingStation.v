@@ -5,7 +5,7 @@ module tb_ChargingStation ();
 	reg Enable, Clk, nReset;
 	wire [11:0]PresentTime;
 	
-	Counter_Main UUT ( .Clk(Clk), .nReset(nReset), .ModeEnable(Enable), .Coin(Coin), .PresentTime(PresentTime));
+	ChargingStation UUT ( .Clk(Clk), .nReset(nReset), .ModeEnable(Enable), .Coin(Coin), .PresentTime(PresentTime));
 	
 	initial
 		Clk = 1'b0;
@@ -14,16 +14,25 @@ module tb_ChargingStation ();
 		#5		Clk = ~Clk;
 		
 	initial begin
-		$display("Starting simulation at %d ns...", $time);
+		$display("Charging Phone at %d ns...", $time);
 		nReset = 1'b0;		                              #10
 		nReset = 1'b1;	                 
 							Enable = 1'd1;							
-													Coin = 4'b0101;	#2000
-		$display("Finished simulation at %d ns.", $time);
+													Coin = 4'b0001;	#500
+													
+		$display("\nINSERTING COIN AGAIN at %d ns...\n", $time);
+		
+													Coin = 4'b0001;	#100//Inserting Coin again
+													
+		$display("\nREJECTED at %d ns...\n", $time);			
+									
+													Coin = 4'b0001;	#600
+													
+		$display("Finished Charging Phone. Insert Coin Again at %d ns.", $time);
 		$stop;
 	end
 	
 	initial
-		$monitor("Time: %3d ns\t Clk = %b\t nReset = %1b\t Enable = %1b\t Coin = %1d\t PT = %1d:%1d%1d\t", $time, Clk, nReset, Enable, Coin, PresentTime[11:8], PresentTime[7:4], PresentTime[3:0]);
+		$monitor("Time: %3d ns\t Clk = %b\t nReset = %1b\t Enable = %1b\t Coin = %1d\t Time Remaining = %1d:%1d%1d\t", $time, Clk, nReset, Enable, Coin, PresentTime[11:8], PresentTime[7:4], PresentTime[3:0]);
 	
 endmodule 
